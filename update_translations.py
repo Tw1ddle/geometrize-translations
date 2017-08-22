@@ -57,6 +57,13 @@ LOCALE_DIR = 'app'
 # Minimum number of messages for translation to be considered at all
 MIN_NUM_MESSAGES = 1
 
+def get_tx_root():
+    import txclib.utils
+    tx_root = txclib.utils.find_dot_tx()
+    if tx_root is None:
+        raise "'.tx/config' not found. You need create a transifex config first."
+    return tx_root
+
 def check_at_repository_root():
     if not os.path.exists('.git'):
         print('No .git directory found')
@@ -64,7 +71,8 @@ def check_at_repository_root():
         exit(1)
 
 def fetch_all_translations():
-    txclib.utils.exec_command('pull', ['-f', '-a'])
+    tx_root = get_tx_root()
+    txclib.utils.exec_command('pull', ['-f', '-a'], tx_root)
 
 def find_format_specifiers(s):
     '''Find all format specifiers in a string.'''
