@@ -20,8 +20,8 @@
 # SOFTWARE.
 
 '''
-Run this script from to update all translations from transifex.
-It will do the following automatically:
+Run this script to update all translations from transifex.
+It does the following automatically:
 
 - fetch all translations using the tx tool (you need this installed to update the translations)
 - post-process them into valid and committable format
@@ -29,13 +29,21 @@ It will do the following automatically:
   - remove location tags (makes diffs less noisy)
 '''
 
-from __future__ import division, print_function
-import subprocess
-import re
-import sys
-import os
 import io
+import os
+import re
+import subprocess
+import sys
 import xml.etree.ElementTree as ET
+
+try:
+    import txclib.utils
+except ImportError:
+    print(
+    'The \'transifex-client\' library needs to be installed. '
+    'Please execute \'pip install transifex-client\''
+    )
+    sys.exit(1)
 
 # Name of transifex tool
 TX = 'tx'
@@ -56,9 +64,7 @@ def check_at_repository_root():
         exit(1)
 
 def fetch_all_translations():
-    if subprocess.call([TX, 'pull', '-f', '-a']):
-        print('Error while fetching translations', file=sys.stderr)
-        exit(1)
+    txclib.utils.exec_command('pull', ['-f', '-a'])
 
 def find_format_specifiers(s):
     '''Find all format specifiers in a string.'''
