@@ -45,9 +45,6 @@ except ImportError:
     )
     sys.exit(1)
 
-# Name of transifex tool
-TX = 'tx'
-
 # Name of source language file
 SOURCE_LANG = 'geometrize_en.ts'
 
@@ -57,18 +54,18 @@ LOCALE_DIR = 'app'
 # Minimum number of messages for translation to be considered at all
 MIN_NUM_MESSAGES = 1
 
+def check_at_repository_root():
+    if not os.path.exists('.git'):
+        print('No .git directory found')
+        print('Execute this script at the root of the repository', file=sys.stderr)
+        exit(1)
+
 def get_tx_root():
     import txclib.utils
     tx_root = txclib.utils.find_dot_tx()
     if tx_root is None:
         raise "'.tx/config' not found. You need create a transifex config first."
     return tx_root
-
-def check_at_repository_root():
-    if not os.path.exists('.git'):
-        print('No .git directory found')
-        print('Execute this script at the root of the repository', file=sys.stderr)
-        exit(1)
 
 def fetch_all_translations():
     tx_root = get_tx_root()
