@@ -52,7 +52,7 @@ SOURCE_LANG = 'geometrize_en.ts'
 LOCALE_DIR = 'app'
 
 # Minimum number of messages for translation to be considered at all
-MIN_NUM_MESSAGES = 1
+MIN_NUM_MESSAGES = 0
 
 def check_at_repository_root():
     if not os.path.exists('.git'):

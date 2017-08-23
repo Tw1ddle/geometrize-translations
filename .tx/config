@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[geometrize-app.geometrize_itts]
+[geometrize-app.geometrize_ents]
 file_filter = app/geometrize_<lang>.ts
 source_file = app/geometrize_en.ts
 source_lang = en
