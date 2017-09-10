@@ -4,7 +4,7 @@
 
 Translations for [Geometrize](http://www.geometrize.co.uk/), the app for geometrizing images into geometric primitives. This project is designed to support multiple localizations, and makes adding new phrases and even completely new languages painless.
 
-To manage translations, Geometrize uses the [Transifex](https://www.transifex.com/sam-twidale/geometrize-app/) online translation service. Continuous integration is set up to monitor this GitHub repo for updates, and regularly sends the latest translations to Transifex.
+To manage translations, Geometrize uses the [Transifex](https://www.transifex.com/sam-twidale/geometrize-app/) online translation service. Continuous integration is set up to sync with the latest translations on Transifex on the regular basis.
 
 [![Geometrized Cinderella](https://github.com/Tw1ddle/geometrize-translations/blob/master/screenshots/geometrized_cinderella.jpg?raw=true "Geometrized Cinderella - 250 ellipses")](http://www.geometrize.co.uk/)
 
