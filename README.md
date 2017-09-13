@@ -6,7 +6,9 @@ Translations for [Geometrize](http://www.geometrize.co.uk/), the app for geometr
 
 To manage translations, Geometrize uses the [Transifex](https://www.transifex.com/sam-twidale/geometrize-app/) online translation service. Continuous integration is set up to sync with the latest translations on Transifex on the regular basis.
 
-[![Geometrized Cinderella](https://github.com/Tw1ddle/geometrize-translations/blob/master/screenshots/geometrized_cinderella.jpg?raw=true "Geometrized Cinderella - 250 ellipses")](http://www.geometrize.co.uk/)
+To make translations more convenient, screenshots of the UI are available [here](http://screenshots.geometrize.co.uk/).
+
+[![Geometrized Cinderella](https://github.com/Tw1ddle/geometrize-translations/blob/master/screenshots/geometrized_cinderella.png?raw=true "Geometrized Cinderella - 250 ellipses")](http://www.geometrize.co.uk/)
 
 ## Notes
  * The translations use the TS file format used by Qt Linguist.
