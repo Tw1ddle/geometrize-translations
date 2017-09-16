@@ -26,8 +26,8 @@ LUPDATE += -locations relative -no-ui-lines
 #    system($$command)|error("Failed to update ts file")
 #}
 
-#command = cd $$shell_quote($$_PRO_FILE_PWD_) && $$LUPDATE -silent $$shell_quote($$_PRO_FILE_) -ts $$shell_quote($${ENGLISH_TRANSLATION})
-#system($$command)|error("Failed to update ts file")
+command = cd $$shell_quote($$_PRO_FILE_PWD_) && $$LUPDATE -silent $$shell_quote($$_PRO_FILE_) -ts $$shell_quote($${ENGLISH_TRANSLATION})
+system($$command)|error("Failed to update ts file")
 
 # Generate qm files from the ts files for the supported languages and place them in the resources folder, ready to be bundled as resources
 qtPrepareTool(LRELEASE, lrelease)
