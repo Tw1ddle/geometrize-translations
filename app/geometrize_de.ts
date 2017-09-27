@@ -9,7 +9,7 @@
     <message>
         <source>Credits</source>
         <extracomment>Text on a button that opens the credits page, which contains the names of people who contributed to creating the app</extracomment>
-        <translation>Kredite</translation>
+        <translation>Referenzen</translation>
     </message>
     <message>
         <source>License</source>
@@ -27,7 +27,7 @@
     <message>
         <source>Type a command...</source>
         <extracomment>Text shown in a command-line style text box. Prompts the user to type something</extracomment>
-        <translation>Geben Sie einen Befehl ein ...</translation>
+        <translation>Befehl eingeben...</translation>
     </message>
 </context>
 <context>
@@ -35,7 +35,7 @@
     <message>
         <source>Credits</source>
         <extracomment>Title of the window containing credits, naming the individuals who contributed to the software</extracomment>
-        <translation>Kredite</translation>
+        <translation>Referenzen</translation>
     </message>
     <message>
         <source>Developers</source>
@@ -63,12 +63,12 @@
     <message>
         <source>Folder Name</source>
         <extracomment>A text label next to a button that opens a dialog which allows the user to select a folder</extracomment>
-        <translation>Ordnernamen</translation>
+        <translation>Ordnername</translation>
     </message>
     <message>
         <source>Select Folder</source>
         <extracomment>Text on a button that opens a folder selection dialog</extracomment>
-        <translation>Ordner auswählen</translation>
+        <translation>Ordner wählen</translation>
     </message>
 </context>
 <context>
@@ -76,12 +76,12 @@
     <message>
         <source>Global Preferences</source>
         <extracomment>Title of the window that contains the preferences and settings that affect the entire app (global settings)</extracomment>
-        <translation>Globale Vorgaben</translation>
+        <translation>Allgemeine Einstellungen</translation>
     </message>
     <message>
         <source>General</source>
         <extracomment>Title text for a general app preferences or settings section</extracomment>
-        <translation>General</translation>
+        <translation>Allgemein</translation>
     </message>
     <message>
         <source>Display</source>
@@ -91,7 +91,7 @@
     <message>
         <source>Performance</source>
         <extracomment>Title text for performance-related (processing speed) app preferences or settings section</extracomment>
-        <translation>Performance</translation>
+        <translation>Leistung</translation>
     </message>
     <message>
         <source>Language</source>
@@ -101,7 +101,7 @@
     <message>
         <source>Image Downscaling</source>
         <extracomment>Title text for a group of settings that control how images are scaled down or made smaller (downscaled)</extracomment>
-        <translation>Bild Downscaling</translation>
+        <translation>Bilder herunterskalieren</translation>
     </message>
     <message>
         <source>Enabled</source>
@@ -111,7 +111,7 @@
     <message>
         <source>Resize Threshold</source>
         <extracomment>A text label next to a pair of values that describe the maximum size an image can be without the image having to be scaled down and made smaller</extracomment>
-        <translation>Größe ändern Schwellenwert</translation>
+        <translation>Grenzbereich anpassen</translation>
     </message>
     <message>
         <source>Multithreading</source>
@@ -121,67 +121,67 @@
     <message>
         <source>Start Up Settings</source>
         <extracomment>Title for the on startup section of app settings. Settings in this section are applied when the app launches or first starts up</extracomment>
-        <translation>Einstellungen starten</translation>
+        <translation>Starteinstellungen</translation>
     </message>
     <message>
         <source>Animate app logo on launch</source>
         <extracomment>Label text for a checkbox option that controls whether the app icon is animated (geometrized) when the app is launched</extracomment>
-        <translation>Animiertes App-Logo beim Start</translation>
+        <translation>Animieren des App-Logos beim Start</translation>
     </message>
     <message>
         <source>Load recent items list</source>
         <extracomment>Label text for a checkbox option that controls whether the list of recent files or items is filled up when the app is launched</extracomment>
-        <translation>Laden Sie die Liste der letzten Elemente auf</translation>
+        <translation>Liste der zuletzt geöffneten Dateien laden</translation>
     </message>
     <message>
         <source>Load sample images</source>
         <extracomment>Label text for a checkbox option that controls whether a list of sample images is loaded up when the app is launched</extracomment>
-        <translation>Laden Sie Beispielbilder</translation>
+        <translation>Beispielbilder laden</translation>
     </message>
     <message>
         <source>Launch Page Settings</source>
         <extracomment>Title for the app settings section that contains options that affect the launch or launcher page of the app</extracomment>
-        <translation>Starten Sie Seiteneinstellungen</translation>
+        <translation>Seiteneinstellungen starten</translation>
     </message>
     <message>
         <source>Show script console</source>
         <extracomment>Label text next to a checkbox that controls whether a script console window will be shown or hidden</extracomment>
-        <translation>Skriptkonsole anzeigen</translation>
+        <translation>Skript-Konsole anzeigen</translation>
     </message>
     <message>
         <source>Image Geometrizer Settings</source>
         <extracomment>Title for the app settings section that contains options that affect the area of the app that turns images into shapes (the image geometrizer)</extracomment>
-        <translation>Bild Geometrizer Einstellungen</translation>
+        <translation>Geometrizer Bildeinstellungen</translation>
     </message>
     <message>
         <source>Show vector image view</source>
         <extracomment>Label text next to a checkbox that controls whether a vector-based (SVG-based) image is shown or hidden</extracomment>
-        <translation>Vektorbild anzeigen</translation>
+        <translation>Vektorbildansicht anzeigen</translation>
     </message>
     <message>
         <source>Show raster image view</source>
         <extracomment>Label text next to a checkbox that controls whether a raster-based (pixmap-based) image is shown or hidden</extracomment>
-        <translation>Rasterbild anzeigen</translation>
+        <translation>Rasteransicht anzeigen</translation>
     </message>
     <message>
         <source>Show script editor window</source>
         <extracomment>Label text next to a checkbox that controls whether a window containing controls for editing and manipulating script files is shown or hidden</extracomment>
-        <translation>Skript-Editor anzeigen</translation>
+        <translation>Skript-Editor-Fenster anzeigen</translation>
     </message>
     <message>
         <source>Max Width</source>
         <extracomment>Label text next to a value that indicates the maximum allowed width of an image in pixels</extracomment>
-        <translation>Maximale Breite</translation>
+        <translation>Max. Breite</translation>
     </message>
     <message>
         <source>Max Height</source>
         <extracomment>Label text next to a value that indicates the maximum allowed height of an image in pixels</extracomment>
-        <translation>Maximale Höhe</translation>
+        <translation>Max. Höhe</translation>
     </message>
     <message>
         <source>Max Threads Per Image</source>
         <extracomment>A text label next to a value that describes the maximum number of CPU threads the computer can use when recreating an image using shapes</extracomment>
-        <translation>Max Threads pro Bild</translation>
+        <translation>Max. Threads pro Bild</translation>
     </message>
 </context>
 <context>
@@ -224,27 +224,27 @@
     <message>
         <source>Export Webpage</source>
         <extracomment>Title text above a group of controls related to exporting and saving webpages</extracomment>
-        <translation>Export Webseite</translation>
+        <translation>Website exportieren</translation>
     </message>
     <message>
         <source>Save HTML5 Webpage</source>
         <extracomment>Text on a button that opens a dialog that allows a user to save a webpage that uses HTML5 web technology</extracomment>
-        <translation>HTML5-Webseite speichern</translation>
+        <translation>HTML5-Website speichern</translation>
     </message>
     <message>
         <source>Save WebGL Webpage</source>
         <extracomment>Text on a button that opens a dialog that allows a user to save a webpage that uses WebGL technology</extracomment>
-        <translation>WebGL-Webseite speichern</translation>
+        <translation>WebGL Website speichern</translation>
     </message>
     <message>
         <source>Export Geometry Data</source>
         <extracomment>Title text above a group of controls related to exporting and saving geometric shape data</extracomment>
-        <translation>Export Geometrie Daten</translation>
+        <translation>Geometrische Daten exportieren</translation>
     </message>
     <message>
         <source>Save Geometry Data</source>
         <extracomment>Text on a button that opens a dialog that allows the user to save geometric shape data directly to a text file</extracomment>
-        <translation>Speichern von Geometriedaten</translation>
+        <translation>Geometrische Daten speichern</translation>
     </message>
 </context>
 <context>
@@ -257,7 +257,7 @@
     <message>
         <source>Target Image Opacity</source>
         <extracomment>Label text next to a slider that allows the user to adjust how transparent/opaque the target image is</extracomment>
-        <translation>Zielbild Opacity</translation>
+        <translation>Opazität des Zielbildes</translation>
     </message>
 </context>
 <context>
@@ -265,32 +265,32 @@
     <message>
         <source>Shapes Per Update</source>
         <extracomment>Label text next to a slider that allows the user to control the number of geometric shapes the app creates each time it updates</extracomment>
-        <translation>Formen pro Aktualisierung</translation>
+        <translation>Formen pro Update</translation>
     </message>
     <message>
         <source>Max Shape Mutations</source>
         <extracomment>Label text next to a slider that allows the user to control the maximum number of times a shape is modified (mutated) each time it updates</extracomment>
-        <translation>Max-Form-Mutationen</translation>
+        <translation>Max. Formvariationen</translation>
     </message>
     <message>
         <source>Shape Opacity</source>
         <extracomment>Label text next to a slider that allows the user to control opacity/transparency of the geometric shapes that are created</extracomment>
-        <translation>Form Deckkraft</translation>
+        <translation>Formopazität</translation>
     </message>
     <message>
         <source>Random Seed</source>
         <extracomment>Label text next to the seed value of a random number generator. The seed number is a mathematical term - not like the seed of a plant!</extracomment>
-        <translation>Random Seed</translation>
+        <translation>Anfangswert für Zufallsgenerator</translation>
     </message>
     <message>
         <source>Max Threads</source>
         <extracomment>A text label next to a value that describes the maximum number of CPU threads the computer can use when recreating an image using shapes</extracomment>
-        <translation>Max Threads</translation>
+        <translation>Max. Threads</translation>
     </message>
     <message>
         <source>Rotated Rectangles</source>
         <extracomment>Plural form of rectangle geometric shape. These rectangles are rotated through an angle (0-360 degrees)</extracomment>
-        <translation>Rotierte Rechtecke</translation>
+        <translation>Gedrehte Rechtecke</translation>
     </message>
     <message>
         <source>Circles</source>
@@ -340,7 +340,7 @@
     <message>
         <source>Clear</source>
         <extracomment>Text on a button that clears/resets the results of a task back to a starting value when pressed</extracomment>
-        <translation>Klar</translation>
+        <translation>Löschen</translation>
     </message>
 </context>
 <context>
@@ -353,12 +353,12 @@
     <message>
         <source>Scripting Engine Enabled</source>
         <extracomment>Text next to a checkbox that enables or disables the scripting engine when pressed</extracomment>
-        <translation>Scripting Engine aktiviert</translation>
+        <translation>Skript-Engine aktiviert</translation>
     </message>
     <message>
         <source>Reset Scripting Engine</source>
         <extracomment>Text on a button that resets the scripting system to default settings when pressed</extracomment>
-        <translation>Scripting Engine zurücksetzen</translation>
+        <translation>Skript-Engine zurücksetzen</translation>
     </message>
 </context>
 <context>
@@ -366,12 +366,12 @@
     <message>
         <source>Id</source>
         <extracomment>Text in a label next to a value that identifies the current task (an id)</extracomment>
-        <translation>Id</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Time Running</source>
         <extracomment>Text in a label next to the length of time a task has been running</extracomment>
-        <translation>Zeit läuft</translation>
+        <translation>Laufzeit</translation>
     </message>
     <message>
         <source>Current Status</source>
@@ -381,17 +381,17 @@
     <message>
         <source>Similarity Score</source>
         <extracomment>Text in a label next to a number that describes how similar two images are to each other (the image similarity value)</extracomment>
-        <translation>Ähnlichkeitsbewertung</translation>
+        <translation>Übereinstimmungswert</translation>
     </message>
     <message>
         <source>Shape Count</source>
         <extracomment>Text in a label next to a value indicating the number of geometric shapes created by a task</extracomment>
-        <translation>Formzähler</translation>
+        <translation>Anzahl der Formen</translation>
     </message>
     <message>
         <source>Image Dimensions</source>
         <extracomment>Text in a label next to another label that describes the resolution of an image</extracomment>
-        <translation>Bildmaße</translation>
+        <translation>Bildabmessungen</translation>
     </message>
 </context>
 <context>
@@ -404,12 +404,12 @@
     <message>
         <source>View</source>
         <extracomment>The title of the View menu that contains commands relating to the handling of visual elements, such as the size and visibility of windows and dialogs within the app</extracomment>
-        <translation>Aussicht</translation>
+        <translation>Ansicht</translation>
     </message>
     <message>
         <source>Stats</source>
         <extracomment>Title of a section that contains statistics about a task, such as the length of time a task has been running</extracomment>
-        <translation>Stats</translation>
+        <translation>Statistiken</translation>
     </message>
     <message>
         <source>Image Settings</source>
@@ -419,7 +419,7 @@
     <message>
         <source>Exporters</source>
         <extracomment>Title of a section that contains preferences and settings for and saving and exporting results data and images</extracomment>
-        <translation>Exporteure</translation>
+        <translation>Exporte</translation>
     </message>
     <message>
         <source>Task Settings</source>
@@ -434,37 +434,37 @@
     <message>
         <source>Save Settings File</source>
         <extracomment>Text on a menu item that opens a file saving dialog, allowing the user to select a location to save a settings file</extracomment>
-        <translation>Einstellungen speichern</translation>
+        <translation>Einstellungsdatei speichern</translation>
     </message>
     <message>
         <source>Show Launch Window</source>
         <extracomment>Text on a menu item that opens or reveals the main launch window of the app when pressed</extracomment>
-        <translation>Show Launch Window</translation>
+        <translation>Startfenster anzeigen</translation>
     </message>
     <message>
         <source>Load Settings File</source>
         <extracomment>Text on a menu item that opens a file selection dialog, allowing the user to select a settings file to load</extracomment>
-        <translation>Laden der Einstellungsdatei</translation>
+        <translation>Einstellungsdatei laden</translation>
     </message>
     <message>
         <source>Script Console</source>
         <extracomment>Text on a menu item that shows or hides the script console when pressed</extracomment>
-        <translation>Skriptkonsole</translation>
+        <translation>Skript-Konsole</translation>
     </message>
     <message>
         <source>Reveal Script Editor</source>
         <extracomment>Text on a menu item that opens or reveals the script editor panel when pressed</extracomment>
-        <translation>Reveal Script Editor</translation>
+        <translation>Skript-Editor anzeigen</translation>
     </message>
     <message>
         <source>Pixmap Image View</source>
         <extracomment>Text on a menu item that shows or hides a window containing a pixmap/bitmap/raster drawing of the shapes the app has created</extracomment>
-        <translation>Pixmap Bildansicht</translation>
+        <translation>Pixmap-Bildansicht</translation>
     </message>
     <message>
         <source>Vector Graphics View</source>
         <extracomment>Text on a menu item that shows or hides a window containing a vector-based (SVG) graphic of the shapes the app has created</extracomment>
-        <translation>Vektorgrafiken anzeigen</translation>
+        <translation>Vektorgrafikansicht</translation>
     </message>
 </context>
 <context>
@@ -472,7 +472,7 @@
     <message>
         <source>Locale Identifier</source>
         <extracomment>A text label next to an item containing the technical locale code the app is running under (such as en_US for US English)</extracomment>
-        <translation>Gebietsschema Identifikator</translation>
+        <translation>Lokale Kennung</translation>
     </message>
     <message>
         <source>Options</source>
@@ -495,7 +495,7 @@
     <message>
         <source>Open Link</source>
         <extracomment>Text on a button that opens a dialog that allows the user to enter a website link, which is then downloaded</extracomment>
-        <translation>Verbindung öffnen</translation>
+        <translation>Link öffnen</translation>
     </message>
     <message>
         <source>Run Script</source>
@@ -505,7 +505,7 @@
     <message>
         <source>Recent</source>
         <extracomment>Title of a section that contains a list of files and items the user recently opened</extracomment>
-        <translation>Kürzlich</translation>
+        <translation>Zuletzt geöffnet</translation>
     </message>
     <message>
         <source>File</source>
@@ -520,22 +520,22 @@
     <message>
         <source>View</source>
         <extracomment>The title of the View menu that contains commands relating to the handling of visual elements, such as the size and visibility of windows and dialogs within the app</extracomment>
-        <translation>Aussicht</translation>
+        <translation>Ansicht</translation>
     </message>
     <message>
         <source>Exit</source>
         <extracomment>Text on a menu item that closes the window when pressed</extracomment>
-        <translation>Ausgang</translation>
+        <translation>Beenden</translation>
     </message>
     <message>
         <source>Tutorials</source>
         <extracomment>Text on a menu item that opens the tutorials page when pressed</extracomment>
-        <translation>Tutorials</translation>
+        <translation>Anleitungen</translation>
     </message>
     <message>
         <source>Support</source>
         <extracomment>Text on a menu item that opens the customer support/help page when pressed</extracomment>
-        <translation>Unterstützung</translation>
+        <translation>Support</translation>
     </message>
     <message>
         <source>About</source>
@@ -545,22 +545,22 @@
     <message>
         <source>Script Console</source>
         <extracomment>Text on a menu item that shows or hides the script console when pressed</extracomment>
-        <translation>Skriptkonsole</translation>
+        <translation>Skript-Konsole</translation>
     </message>
     <message>
         <source>Global Preferences</source>
         <extracomment>Text on a menu item that opens the application-wide/global preferences page</extracomment>
-        <translation>Globale Vorgaben</translation>
+        <translation>Allgemeine Einstellungen</translation>
     </message>
     <message>
         <source>Load Global Preferences</source>
         <extracomment>Text on a menu item that opens a dialog that allows the user to load a file containing application-wide/global preferences page</extracomment>
-        <translation>Globale Einstellungen laden</translation>
+        <translation>Allgemeine Einstellungen laden</translation>
     </message>
     <message>
         <source>Save Global Preferences</source>
         <extracomment>Text on a menu item that opens a dialog that allows the user to save a file containing the current application-wide/global preferences page</extracomment>
-        <translation>Globale Einstellungen speichern</translation>
+        <translation>Allgemeine Einstellungen speichern</translation>
     </message>
     <message>
         <source>Sample Images</source>
@@ -570,12 +570,12 @@
     <message>
         <source>Search sample images...</source>
         <extracomment>Placeholder text in a search box, telling the user to type in the box to find sample/test images</extracomment>
-        <translation>Stichprobenbilder suchen ...</translation>
+        <translation>Beispielbilder suchen...</translation>
     </message>
     <message>
         <source>Clear Recent Items</source>
         <extracomment>Text on a menu item that clears a list of recently loaded files when pressed</extracomment>
-        <translation>Löschen Sie die letzten Artikel</translation>
+        <translation>Zuletzt geöffnete Dateien löschen</translation>
     </message>
 </context>
 <context>
@@ -591,12 +591,12 @@
     <message>
         <source>Download Webpage</source>
         <extracomment>Title of the window that allows the user to download the images and media on a webpage into the app</extracomment>
-        <translation>Download Webseite</translation>
+        <translation>Von Website herunterladen</translation>
     </message>
     <message>
         <source>Enter the URL to check. Images found at the URL will be downloaded and opened:</source>
         <extracomment>Message that explains how the user can enter a web address in the current dialog. The app automatically opens images it finds at the web address</extracomment>
-        <translation>Geben Sie die zu prüfende URL ein. Bilder, die bei der URL gefunden werden, werden heruntergeladen und geöffnet:</translation>
+        <translation>Geben Sie die zu überprüfende URL ein. Die unter der URL gefundenen Bilder werden heruntergeladen und geöffnet:</translation>
     </message>
 </context>
 <context>
@@ -609,7 +609,7 @@
     <message>
         <source>Image Files (*.jpg *.jpeg *.png *.bmp)</source>
         <comment>List of supported image file formats. The text in the parentheses must not be changed</comment>
-        <translation>Bilddateien (* .jpg * .jpeg * .png * .bmp)</translation>
+        <translation>Bilddateien (*.jpg *.jpeg *.png *.bmp)</translation>
     </message>
     <message>
         <source>Save Image</source>
@@ -619,7 +619,7 @@
     <message>
         <source>JPEG Image (*.jpg *.jpeg);;PNG Image (*.png);;BMP Image (*.bmp);;PPM Image (*.ppm)</source>
         <comment>List of supported image file formats. Semicolons and text in the parentheses must not be changed</comment>
-        <translation>JPG-Bild (* .jpg * .jpeg) ;; PNG-Bild (* .png) ;; BMP-Bild (* .bmp) ;; PPM-Bild (* .ppm)</translation>
+        <translation>JPEG-Bild (*.jpg *.jpeg);;PNG-Bild (*.png);;BMP-Bild (*.bmp);;PPM-Bild (*.ppm)</translation>
     </message>
     <message>
         <source>Save SVG Image</source>
@@ -629,7 +629,7 @@
     <message>
         <source>SVG Image (*.svg)</source>
         <comment>List of supported vector-based image formats. The text in the parentheses must not be changed</comment>
-        <translation>SVG-Bild (* .svg)</translation>
+        <translation>SVG-Bild (*.svg)</translation>
     </message>
     <message>
         <source>Save Images</source>
@@ -639,12 +639,12 @@
     <message>
         <source>Save Geometry Data</source>
         <comment>Title on a dialog that allows the user to save geometric primitive data</comment>
-        <translation>Speichern von Geometriedaten</translation>
+        <translation>Geometrische Daten speichern</translation>
     </message>
     <message>
         <source>JSON Data (*.json);;Text Array (*.txt)</source>
         <comment>List of supported data file formats. Semicolons and text in the parentheses must not be changed</comment>
-        <translation>JSON-Daten (* .json) ;; Text-Array (* .txt)</translation>
+        <translation>JSON-Daten (*.json);;Textfeld (*.txt)</translation>
     </message>
     <message>
         <source>Save Animated GIF</source>
@@ -654,32 +654,32 @@
     <message>
         <source>GIF Animation (*.gif)</source>
         <comment>List of supported GIF file formats. The text in the parentheses must not be changed</comment>
-        <translation>GIF Animation (* .gif)</translation>
+        <translation>GIF-Animation (*.gif)</translation>
     </message>
     <message>
         <source>Save HTML5 Webpage</source>
         <comment>Title on a dialog that allows the user to save a HTML5-based webpage</comment>
-        <translation>HTML5-Webseite speichern</translation>
+        <translation>HTML5-Website speichern</translation>
     </message>
     <message>
         <source>HTML Webpage (*.html)</source>
         <comment>List of supported webpage formats. The text in the parentheses must not be changed</comment>
-        <translation>HTML-Webseite (* .html)</translation>
+        <translation>HTML-Website (*.html)</translation>
     </message>
     <message>
         <source>Save WebGL Webpage</source>
         <comment>Title on a dialog that allows the user to save a WebGL-based webpage</comment>
-        <translation>WebGL-Webseite speichern</translation>
+        <translation>WebGL-Website speichern</translation>
     </message>
     <message>
         <source>Select Script</source>
         <comment>Title on a dialog that allows the user to select a script file</comment>
-        <translation>Wählen Sie Skript</translation>
+        <translation>Skript wählen</translation>
     </message>
     <message>
         <source>ChaiScript Files (*.chai)</source>
         <comment>List of supported script file formats. The text in the parentheses must not be changed</comment>
-        <translation>ChaiScript-Dateien (* .chai)</translation>
+        <translation>ChaiScript-Dateien (*.chai)</translation>
     </message>
     <message>
         <source>Load Settings</source>
@@ -689,7 +689,7 @@
     <message>
         <source>JSON Settings File (*.json)</source>
         <comment>List of supported settings file formats. The text in the parentheses must not be changed</comment>
-        <translation>JSON-Einstellungsdatei (* .json)</translation>
+        <translation>JSON-Einstellungsdatei (*.json)</translation>
     </message>
     <message>
         <source>Save Settings</source>
@@ -699,7 +699,7 @@
     <message>
         <source>Select Image</source>
         <comment>Title on a dialog that allows the user to select an image file</comment>
-        <translation>Bild auswählen</translation>
+        <translation>Bild wählen</translation>
     </message>
 </context>
 <context>
@@ -717,7 +717,7 @@
     <message>
         <source>Select File</source>
         <extracomment>Text on a button that opens a dialog for selecting a file when pressed</extracomment>
-        <translation>Datei aussuchen</translation>
+        <translation>Datei wählen</translation>
     </message>
     <message>
         <source>Options</source>
@@ -730,7 +730,7 @@
     <message>
         <source>Script evaluation failure</source>
         <comment>Title of an error message dialog shown when the app fails to run a script</comment>
-        <translation>Skriptausfallversagen</translation>
+        <translation>Evaluierung des Skripts fehlgeschlagen</translation>
     </message>
 </context>
 <context>
@@ -738,7 +738,7 @@
     <message>
         <source>Could not evaluate script: %1</source>
         <comment>Error message text shown when the app fails to run a script</comment>
-        <translation>Das Skript konnte nicht ausgewertet werden: %1</translation>
+        <translation>Folgendes Skript konnte nicht ausgewertet werden: %1</translation>
     </message>
 </context>
 <context>
@@ -746,7 +746,7 @@
     <message>
         <source>Unknown script evaluation error</source>
         <comment>Error message shown when the app fails to run a script, and has no additional information about the error</comment>
-        <translation>Unbekannter Skriptbewertungsfehler</translation>
+        <translation>Unbekannter Skript-Evaluierungsfehler</translation>
     </message>
 </context>
 <context>
@@ -754,7 +754,7 @@
     <message>
         <source>Apply</source>
         <extracomment>Text on a button that applies an app settings change when pressed</extracomment>
-        <translation>Sich bewerben</translation>
+        <translation>Anwenden</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -767,12 +767,12 @@
     <message>
         <source>Welcome</source>
         <extracomment>Title of the dialog that greets/welcomes the user to the app</extracomment>
-        <translation>Herzlich willkommen</translation>
+        <translation>Willkommen</translation>
     </message>
     <message>
         <source>Welcome to Geometrize. Watch the video tutorials below to learn the basics.</source>
         <extracomment>Message that welcomes users to the application</extracomment>
-        <translation>Willkommen bei Geometrize. Sehen Sie sich die Video-Tutorials unten an, um die Grundlagen zu erlernen.</translation>
+        <translation>Herzlich willkommen bei Geometrize. Sehen Sie sich die Videoanleitungen unten an, um die Grundlagen zu lernen.</translation>
     </message>
     <message>
         <source>Close</source>
@@ -787,7 +787,7 @@
     <message>
         <source>Show On Launch</source>
         <extracomment>Text next to a checkbox that controls whether a window will be displayed every time the application is launched</extracomment>
-        <translation>Show On Launch</translation>
+        <translation>Beim Start anzeigen</translation>
     </message>
 </context>
 <context>
@@ -795,17 +795,17 @@
     <message>
         <source>About %1</source>
         <comment>The title of the 'about' page with information about the application</comment>
-        <translation>Über %1</translation>
+        <translation>Etwa %1</translation>
     </message>
     <message>
         <source>Build Info:</source>
         <comment>Technical information about the way the software was built follows</comment>
-        <translation>Build-Info:</translation>
+        <translation>Entwicklungsinfos:</translation>
     </message>
     <message>
         <source>Runtime Info:</source>
         <comment>Technical information about the platform the software is running on follows</comment>
-        <translation>Runtime Info:</translation>
+        <translation>Info zur Laufzeit:</translation>
     </message>
 </context>
 <context>
@@ -821,12 +821,12 @@
     <message>
         <source>Failed to run exporter</source>
         <comment>Title of error message shown when an attempt to save/export a file failed</comment>
-        <translation>Der Exporteur konnte nicht ausgeführt werden</translation>
+        <translation>Der Export konnte nicht ausgeführt werden</translation>
     </message>
     <message>
         <source>Failed to run exporter. Exporter was misconfigured.</source>
         <comment>Error message text shown when an attempt to save/export a file failed</comment>
-        <translation>Der Exporteur konnte nicht ausgeführt werden. Exporteur wurde falsch konfiguriert.</translation>
+        <translation>Der Export konnte nicht ausgeführt werden. Der Export war falsch konfiguriert.</translation>
     </message>
 </context>
 <context>
@@ -834,12 +834,12 @@
     <message>
         <source>Idle</source>
         <comment>Text shown on a button when the app is not actively turning images into shapes. That is, the app is idle/not doing anything</comment>
-        <translation>Leerlauf</translation>
+        <translation>Im Ruhezustand</translation>
     </message>
     <message>
         <source>Running</source>
         <comment>Text shown on a button when the app is actively turning images into shapes. That is, the app is running in the sense of being busy working/processing</comment>
-        <translation>Laufen</translation>
+        <translation>Wird ausgeführt</translation>
     </message>
     <message>
         <source>%1x%2</source>
@@ -857,22 +857,22 @@
     <message>
         <source>Image has incorrect dimensions</source>
         <comment>Title of an error dialog shown when the user selects an image that was the wrong resolution/size</comment>
-        <translation>Bild hat falsche Abmessungen</translation>
+        <translation>Das Bild hat inkorrekte Abmessungen</translation>
     </message>
     <message>
         <source>Selected image must have the same dimensions as the current target image. Size was %1, but should have been %2</source>
         <comment>Error message shown when the user selects an image that was the wrong resolution/size</comment>
-        <translation>Ausgewähltes Bild muss die gleichen Abmessungen wie das aktuelle Zielbild haben. Größe war %1, sollte aber %2 gewesen sein</translation>
+        <translation>Das ausgewählte Bild muss die gleichen Abmessungen wie das aktuelle Zielbild haben. Die Größe betrug %1, sollte jedoch %2 betragen.</translation>
     </message>
     <message>
         <source>Start</source>
         <comment>Text on a button that the user presses to make the app start/begin transforming an image into shapes</comment>
-        <translation>Anfang</translation>
+        <translation>Start</translation>
     </message>
     <message>
         <source>Stop</source>
         <comment>Text on a button that the user presses to make the app stop/pause transforming an image into shapes</comment>
-        <translation>Halt</translation>
+        <translation>Stopp</translation>
     </message>
 </context>
 <context>
@@ -880,7 +880,7 @@
     <message>
         <source>Get more online</source>
         <comment>Text on a button the user presses to open a page containing more resources for using the app, such as extra images, information and help</comment>
-        <translation>Erhalten Sie mehr online</translation>
+        <translation>Online mehr erhalten</translation>
     </message>
     <message>
         <source>Video tutorials</source>
@@ -903,22 +903,22 @@
     <message>
         <source>Open in viewer</source>
         <comment>Text on a menu item the user presses to open an image/piece of media in a viewer</comment>
-        <translation>Im Betrachter öffnen</translation>
+        <translation>Im Viewer öffnen</translation>
     </message>
     <message>
         <source>Reveal in file explorer</source>
         <comment>Text on a menu item the user presses to open an image/piece of media in a file viewer/explorer</comment>
-        <translation>Reveal in Datei-Explorer</translation>
+        <translation>Im Dateiexplorer anzeigen</translation>
     </message>
     <message>
         <source>Copy file path to clipboard</source>
         <comment>Text on a menu item the user selects to copy a file path to the copy-paste clipboard</comment>
-        <translation>Kopieren Sie den Dateipfad in die Zwischenablage</translation>
+        <translation>Dateipfad in die Zwischenablage kopieren</translation>
     </message>
     <message>
         <source>Remove from list</source>
         <comment>Text on a menu item the user presses to remove an item from a list of items</comment>
-        <translation>Aus Liste entfernen</translation>
+        <translation>Von der Liste entfernen</translation>
     </message>
 </context>
 <context>
@@ -926,7 +926,7 @@
     <message>
         <source>Type 'help' in console for a list of commands</source>
         <comment>Instructional text shown in the command/scripting console</comment>
-        <translation>Geben Sie 'help' in der Konsole für eine Liste von Befehlen ein</translation>
+        <translation>Geben Sie 'help' auf der Konsole ein, um eine Liste von Befehlen anzuzeigen.</translation>
     </message>
 </context>
 <context>
@@ -949,7 +949,7 @@
     <message>
         <source>Reveal in file explorer</source>
         <comment>Text on a menu item the user presses to open an image/piece of media in a file viewer/explorer</comment>
-        <translation>Reveal in Datei-Explorer</translation>
+        <translation>Im Dateiexplorer anzeigen</translation>
     </message>
 </context>
 <context>
@@ -970,7 +970,7 @@
     <message>
         <source>Geometrize recreates your photos using simple geometric shapes, transforming them into unique artwork.</source>
         <comment>This is a short description for what this application is and what it does.</comment>
-        <translation>Geometrize erstellt Ihre Fotos mit einfachen geometrischen Formen und verwandelt sie in einzigartige Kunstwerke.</translation>
+        <translation>Geometrize erzeugt Ihre Fotos anhand einfacher geometrischer Formen neu und verwandelt sie in einzigartige Kunstwerke.</translation>
     </message>
     <message>
         <source>Copyright 2015-2017 Sam Twidale</source>
@@ -985,7 +985,7 @@
     <message>
         <source>Rotated Rectangles</source>
         <comment>Plural form of rectangle geometric shape. These rectangles are rotated through an angle (0-360 degrees)</comment>
-        <translation>Rotierte Rechtecke</translation>
+        <translation>Gedrehte Rechtecke</translation>
     </message>
     <message>
         <source>Triangles</source>
