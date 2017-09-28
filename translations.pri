@@ -1,5 +1,5 @@
 # Supported languages
-LANGUAGES = ar be bg cs da de el en es et fi fil fr hi id it ja ko lt ms nb nl pl pt_BR pt_PT ru sk sl sq sr sv th tr uk vi zh
+LANGUAGES = ar bg cs da de el en es fi fr id it ja ko ms nl pl pt_BR pt_PT ru sk sr sv th tr uk vi zh
 
 # Make the ts files show up in the Qt Creator file browser
 OTHER_FILES += $$files($${PWD}/*.ts, true)
@@ -26,8 +26,8 @@ LUPDATE += -locations relative -no-ui-lines
 #    system($$command)|error("Failed to update ts file")
 #}
 
-command = cd $$shell_quote($$_PRO_FILE_PWD_) && $$LUPDATE -silent $$shell_quote($$_PRO_FILE_) -ts $$shell_quote($${ENGLISH_TRANSLATION})
-system($$command)|error("Failed to update ts file")
+#command = cd $$shell_quote($$_PRO_FILE_PWD_) && $$LUPDATE -silent $$shell_quote($$_PRO_FILE_) -ts $$shell_quote($${ENGLISH_TRANSLATION})
+#system($$command)|error("Failed to update ts file")
 
 # Generate qm files from the ts files for the supported languages and place them in the resources folder, ready to be bundled as resources
 qtPrepareTool(LRELEASE, lrelease)
