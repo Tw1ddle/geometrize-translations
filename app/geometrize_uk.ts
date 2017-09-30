@@ -16,10 +16,20 @@
         <extracomment>Text on a button that opens the licenses page, which contains the legal text about the license the app is provided under</extracomment>
         <translation>Ліцензія</translation>
     </message>
-    </context>
+    <message>
+        <source>Close</source>
+        <extracomment>Text on a button that closes the dialog when pressed</extracomment>
+        <translation>Закрити</translation>
+    </message>
+</context>
 <context>
     <name>CommandLineEdit</name>
-    </context>
+    <message>
+        <source>Type a command...</source>
+        <extracomment>Text shown in a command-line style text box. Prompts the user to type something</extracomment>
+        <translation>Надрукуйте команду...</translation>
+    </message>
+</context>
 <context>
     <name>CreditsDialog</name>
     <message>
@@ -28,9 +38,19 @@
         <translation>Титри</translation>
     </message>
     <message>
+        <source>Developers</source>
+        <extracomment>Title of a page listing the names of programmers who developed the app</extracomment>
+        <translation>Розробники</translation>
+    </message>
+    <message>
         <source>Translators</source>
         <extracomment>Title of a page listing the names of translators who worked on the app</extracomment>
         <translation>Перекладачі</translation>
+    </message>
+    <message>
+        <source>Artists</source>
+        <extracomment>Title of a page listing the names of artists who worked on the app</extracomment>
+        <translation>Художники</translation>
     </message>
     <message>
         <source>Acknowledgements</source>
@@ -59,6 +79,11 @@
         <translation>Загальні преференції</translation>
     </message>
     <message>
+        <source>General</source>
+        <extracomment>Title text for a general app preferences or settings section</extracomment>
+        <translation>Загальне</translation>
+    </message>
+    <message>
         <source>Display</source>
         <extracomment>Title text for a display-related (screen-size, font size etc) app preferences or settings section</extracomment>
         <translation>Дисплей</translation>
@@ -74,6 +99,16 @@
         <translation>Мова</translation>
     </message>
     <message>
+        <source>Image Downscaling</source>
+        <extracomment>Title text for a group of settings that control how images are scaled down or made smaller (downscaled)</extracomment>
+        <translation>Зменшення розміру зображень</translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <extracomment>Label text next to a checkbox that controls whether an app feature is enabled or disabled</extracomment>
+        <translation>Увімкнене</translation>
+    </message>
+    <message>
         <source>Resize Threshold</source>
         <extracomment>A text label next to a pair of values that describe the maximum size an image can be without the image having to be scaled down and made smaller</extracomment>
         <translation>Змінити розмір порогового значення</translation>
@@ -82,6 +117,11 @@
         <source>Multithreading</source>
         <extracomment>Title text for a group of multithreading-related settings. This is threading in the sense of CPU threads (not clothes!)</extracomment>
         <translation>Багатопотоковість</translation>
+    </message>
+    <message>
+        <source>Start Up Settings</source>
+        <extracomment>Title for the on startup section of app settings. Settings in this section are applied when the app launches or first starts up</extracomment>
+        <translation>Налаштування запуску</translation>
     </message>
     <message>
         <source>Animate app logo on launch</source>
@@ -124,6 +164,11 @@
         <translation>Показати режим растрового перегляду зображення</translation>
     </message>
     <message>
+        <source>Show script editor window</source>
+        <extracomment>Label text next to a checkbox that controls whether a window containing controls for editing and manipulating script files is shown or hidden</extracomment>
+        <translation>Показати вікно редактора скрипту</translation>
+    </message>
+    <message>
         <source>Max Width</source>
         <extracomment>Label text next to a value that indicates the maximum allowed width of an image in pixels</extracomment>
         <translation>Максимальна ширина</translation>
@@ -141,6 +186,16 @@
 </context>
 <context>
     <name>ImageTaskExportWidget</name>
+    <message>
+        <source>Export Image</source>
+        <extracomment>Title text above a group of controls related to exporting and saving images</extracomment>
+        <translation>Експортувати зображення</translation>
+    </message>
+    <message>
+        <source>Save Image</source>
+        <extracomment>Text on a button that opens a dialog that allows the user to save an image file</extracomment>
+        <translation>Зберегти зображення</translation>
+    </message>
     <message>
         <source>Save Images</source>
         <extracomment>Text on a button that opens a dialog that allows a user to save multiple image files</extracomment>
@@ -167,9 +222,19 @@
         <translation>Зберегти GIF</translation>
     </message>
     <message>
+        <source>Export Webpage</source>
+        <extracomment>Title text above a group of controls related to exporting and saving webpages</extracomment>
+        <translation>Експортувати вебсторінку</translation>
+    </message>
+    <message>
         <source>Save HTML5 Webpage</source>
         <extracomment>Text on a button that opens a dialog that allows a user to save a webpage that uses HTML5 web technology</extracomment>
         <translation>Зберегти вебсторінку HTML5</translation>
+    </message>
+    <message>
+        <source>Save WebGL Webpage</source>
+        <extracomment>Text on a button that opens a dialog that allows a user to save a webpage that uses WebGL technology</extracomment>
+        <translation>Зберегти вебсторінку WebGL</translation>
     </message>
     <message>
         <source>Export Geometry Data</source>
@@ -184,6 +249,11 @@
 </context>
 <context>
     <name>ImageTaskImageWidget</name>
+    <message>
+        <source>Change Target Image</source>
+        <extracomment>Text on a button that opens a dialog that allows the user to select an image that the software attempts to recreate using shapes - which is why it is called the Target image</extracomment>
+        <translation>Змінити цілбове зображення</translation>
+    </message>
     <message>
         <source>Target Image Opacity</source>
         <extracomment>Label text next to a slider that allows the user to adjust how transparent/opaque the target image is</extracomment>
@@ -213,9 +283,19 @@
         <translation>Випадкове начальне число</translation>
     </message>
     <message>
+        <source>Max Threads</source>
+        <extracomment>A text label next to a value that describes the maximum number of CPU threads the computer can use when recreating an image using shapes</extracomment>
+        <translation>Максимальні потоки</translation>
+    </message>
+    <message>
         <source>Rotated Rectangles</source>
         <extracomment>Plural form of rectangle geometric shape. These rectangles are rotated through an angle (0-360 degrees)</extracomment>
         <translation>Прямокутники, що обертаються</translation>
+    </message>
+    <message>
+        <source>Circles</source>
+        <extracomment>Plural form of circle/circular geometric shape</extracomment>
+        <translation>Кола</translation>
     </message>
     <message>
         <source>Quadratic Beziers</source>
@@ -228,6 +308,11 @@
         <translation>Трикрапка</translation>
     </message>
     <message>
+        <source>Triangles</source>
+        <extracomment>Plural form of triangle geometric shape</extracomment>
+        <translation>Трикутники</translation>
+    </message>
+    <message>
         <source>Rectangles</source>
         <extracomment>Plural form of rectangle geometric shape</extracomment>
         <translation>Прямокутники</translation>
@@ -236,6 +321,11 @@
         <source>Lines</source>
         <extracomment>Plural form of the simple line geometric shape</extracomment>
         <translation>Лінії </translation>
+    </message>
+    <message>
+        <source>Rotated Ellipses</source>
+        <extracomment>Plural form of ellipse geometric shape. These ellipses are rotated through an angle (0-360 degrees)</extracomment>
+        <translation>Еліпси, що обертаються</translation>
     </message>
     <message>
         <source>Polylines</source>
@@ -247,7 +337,12 @@
         <extracomment>Text on a button that updates (steps) a task once when pressed</extracomment>
         <translation>Оновити</translation>
     </message>
-    </context>
+    <message>
+        <source>Clear</source>
+        <extracomment>Text on a button that clears/resets the results of a task back to a starting value when pressed</extracomment>
+        <translation>Очистити</translation>
+    </message>
+</context>
 <context>
     <name>ImageTaskScriptPanel</name>
     <message>
@@ -274,9 +369,19 @@
         <translation>Ідентифікатор</translation>
     </message>
     <message>
+        <source>Time Running</source>
+        <extracomment>Text in a label next to the length of time a task has been running</extracomment>
+        <translation>Час роботи</translation>
+    </message>
+    <message>
         <source>Current Status</source>
         <extracomment>Text in a label next to a value that describes the current status of a task (e.g. busy, paused, stopped)</extracomment>
         <translation>Поточний статус</translation>
+    </message>
+    <message>
+        <source>Similarity Score</source>
+        <extracomment>Text in a label next to a number that describes how similar two images are to each other (the image similarity value)</extracomment>
+        <translation>Величина схожості</translation>
     </message>
     <message>
         <source>Shape Count</source>
@@ -297,9 +402,24 @@
         <translation>Файл</translation>
     </message>
     <message>
+        <source>View</source>
+        <extracomment>The title of the View menu that contains commands relating to the handling of visual elements, such as the size and visibility of windows and dialogs within the app</extracomment>
+        <translation>Переглянути</translation>
+    </message>
+    <message>
         <source>Stats</source>
         <extracomment>Title of a section that contains statistics about a task, such as the length of time a task has been running</extracomment>
         <translation>Статистика</translation>
+    </message>
+    <message>
+        <source>Image Settings</source>
+        <extracomment>Title of a section that contains settings that affect the image that the app will transform into shapes</extracomment>
+        <translation>Налаштування зображення</translation>
+    </message>
+    <message>
+        <source>Exporters</source>
+        <extracomment>Title of a section that contains preferences and settings for and saving and exporting results data and images</extracomment>
+        <translation>Експортери</translation>
     </message>
     <message>
         <source>Task Settings</source>
@@ -354,7 +474,12 @@
         <extracomment>A text label next to an item containing the technical locale code the app is running under (such as en_US for US English)</extracomment>
         <translation>Ідентифікатор місцевості</translation>
     </message>
-    </context>
+    <message>
+        <source>Options</source>
+        <extracomment>The title of a section containing the language selection options for the app</extracomment>
+        <translation>Варіанти</translation>
+    </message>
+</context>
 <context>
     <name>LaunchWindow</name>
     <message>
@@ -393,9 +518,19 @@
         <translation>Допомога</translation>
     </message>
     <message>
+        <source>View</source>
+        <extracomment>The title of the View menu that contains commands relating to the handling of visual elements, such as the size and visibility of windows and dialogs within the app</extracomment>
+        <translation>Переглянути</translation>
+    </message>
+    <message>
         <source>Exit</source>
         <extracomment>Text on a menu item that closes the window when pressed</extracomment>
         <translation>Вийти</translation>
+    </message>
+    <message>
+        <source>Tutorials</source>
+        <extracomment>Text on a menu item that opens the tutorials page when pressed</extracomment>
+        <translation>Посібники</translation>
     </message>
     <message>
         <source>Support</source>
@@ -406,6 +541,31 @@
         <source>About</source>
         <extracomment>Text on a menu item that opens the About page with information about the app when pressed</extracomment>
         <translation>Про</translation>
+    </message>
+    <message>
+        <source>Script Console</source>
+        <extracomment>Text on a menu item that shows or hides the script console when pressed</extracomment>
+        <translation>Консоль скрипту</translation>
+    </message>
+    <message>
+        <source>Global Preferences</source>
+        <extracomment>Text on a menu item that opens the application-wide/global preferences page</extracomment>
+        <translation>Загальні преференції</translation>
+    </message>
+    <message>
+        <source>Load Global Preferences</source>
+        <extracomment>Text on a menu item that opens a dialog that allows the user to load a file containing application-wide/global preferences page</extracomment>
+        <translation>Завантажити загальні преференції</translation>
+    </message>
+    <message>
+        <source>Save Global Preferences</source>
+        <extracomment>Text on a menu item that opens a dialog that allows the user to save a file containing the current application-wide/global preferences page</extracomment>
+        <translation>Зберегти загальні преференції</translation>
+    </message>
+    <message>
+        <source>Sample Images</source>
+        <extracomment>Title of a section that contains specially prepared template or sample images and photographs</extracomment>
+        <translation>Зразки зображень</translation>
     </message>
     <message>
         <source>Search sample images...</source>
@@ -420,7 +580,12 @@
 </context>
 <context>
     <name>LicenseDialog</name>
-    </context>
+    <message>
+        <source>License Information</source>
+        <extracomment>Title of the window that contains legal/license information about the software</extracomment>
+        <translation>Інформація щодо ліцензії</translation>
+    </message>
+</context>
 <context>
     <name>OpenUrlDialog</name>
     <message>
@@ -428,7 +593,12 @@
         <extracomment>Title of the window that allows the user to download the images and media on a webpage into the app</extracomment>
         <translation>Завантажити вебсторінку</translation>
     </message>
-    </context>
+    <message>
+        <source>Enter the URL to check. Images found at the URL will be downloaded and opened:</source>
+        <extracomment>Message that explains how the user can enter a web address in the current dialog. The app automatically opens images it finds at the web address</extracomment>
+        <translation>Введіть URL для огляду. Зображення, знадені на URL будуть завантажені та відкриті:</translation>
+    </message>
+</context>
 <context>
     <name>QWidget</name>
     <message>
@@ -442,14 +612,34 @@
         <translation>Файли зображень (*.jpg *.jpeg *.png *.bmp)</translation>
     </message>
     <message>
+        <source>Save Image</source>
+        <comment>Title on a dialog that allows the user to save an image file</comment>
+        <translation>Зберегти зображення</translation>
+    </message>
+    <message>
+        <source>JPEG Image (*.jpg *.jpeg);;PNG Image (*.png);;BMP Image (*.bmp);;PPM Image (*.ppm)</source>
+        <comment>List of supported image file formats. Semicolons and text in the parentheses must not be changed</comment>
+        <translation>Зображення JPEG (*.jpg *.jpeg);; Зображення PNG (*.png);; Зображення BMP (*.bmp);; Зображення PPM (*.ppm)</translation>
+    </message>
+    <message>
         <source>Save SVG Image</source>
         <comment>Title on a dialog that allows the user to save an SVG (scalable vector graphics) image file</comment>
         <translation>Зберегти зображення SVG</translation>
     </message>
     <message>
+        <source>SVG Image (*.svg)</source>
+        <comment>List of supported vector-based image formats. The text in the parentheses must not be changed</comment>
+        <translation>Зображення SVG (*.svg)</translation>
+    </message>
+    <message>
         <source>Save Images</source>
         <comment>Title on a dialog that allows the user to save image files</comment>
         <translation>Зберегти зображення</translation>
+    </message>
+    <message>
+        <source>Save Geometry Data</source>
+        <comment>Title on a dialog that allows the user to save geometric primitive data</comment>
+        <translation>Зберегти геометричні дані</translation>
     </message>
     <message>
         <source>JSON Data (*.json);;Text Array (*.txt)</source>
@@ -482,6 +672,11 @@
         <translation>Зберегти вебсторінку WebGL</translation>
     </message>
     <message>
+        <source>Select Script</source>
+        <comment>Title on a dialog that allows the user to select a script file</comment>
+        <translation>Вибрати скрипт</translation>
+    </message>
+    <message>
         <source>ChaiScript Files (*.chai)</source>
         <comment>List of supported script file formats. The text in the parentheses must not be changed</comment>
         <translation>Файли ChaiScript (*.chai)</translation>
@@ -490,6 +685,11 @@
         <source>Load Settings</source>
         <comment>Title on a dialog that allows the user to select a settings file</comment>
         <translation>Завантажити налаштування</translation>
+    </message>
+    <message>
+        <source>JSON Settings File (*.json)</source>
+        <comment>List of supported settings file formats. The text in the parentheses must not be changed</comment>
+        <translation>Файл налаштувань JSON (*.json)</translation>
     </message>
     <message>
         <source>Save Settings</source>
@@ -535,7 +735,12 @@
 </context>
 <context>
     <name>Script evaluation error message</name>
-    </context>
+    <message>
+        <source>Could not evaluate script: %1</source>
+        <comment>Error message text shown when the app fails to run a script</comment>
+        <translation>Не вдалось оцінити скрипт: %1</translation>
+    </message>
+</context>
 <context>
     <name>Script evaluation unknown error</name>
     <message>
@@ -588,6 +793,11 @@
 <context>
     <name>geometrize::dialog::AboutDialog</name>
     <message>
+        <source>About %1</source>
+        <comment>The title of the 'about' page with information about the application</comment>
+        <translation>Близько %1</translation>
+    </message>
+    <message>
         <source>Build Info:</source>
         <comment>Technical information about the way the software was built follows</comment>
         <translation>Інформація щодо побудови: </translation>
@@ -627,6 +837,11 @@
         <translation>Режим очікування</translation>
     </message>
     <message>
+        <source>Running</source>
+        <comment>Text shown on a button when the app is actively turning images into shapes. That is, the app is running in the sense of being busy working/processing</comment>
+        <translation>Працює</translation>
+    </message>
+    <message>
         <source>%1x%2</source>
         <comment>Dimensions of an image e.g. width-x-height, 1024x800</comment>
         <translation>%1x%2</translation>
@@ -634,6 +849,11 @@
 </context>
 <context>
     <name>geometrize::dialog::ImageTaskWindow</name>
+    <message>
+        <source>%1x%2</source>
+        <comment>Dimensions of an image e.g. width-x-height, 1024x800</comment>
+        <translation>%1x%2</translation>
+    </message>
     <message>
         <source>Image has incorrect dimensions</source>
         <comment>Title of an error dialog shown when the user selects an image that was the wrong resolution/size</comment>
@@ -649,9 +869,19 @@
         <comment>Text on a button that the user presses to make the app start/begin transforming an image into shapes</comment>
         <translation>Розпочати</translation>
     </message>
-    </context>
+    <message>
+        <source>Stop</source>
+        <comment>Text on a button that the user presses to make the app stop/pause transforming an image into shapes</comment>
+        <translation>Зупинити</translation>
+    </message>
+</context>
 <context>
     <name>geometrize::dialog::LaunchWindow</name>
+    <message>
+        <source>Get more online</source>
+        <comment>Text on a button the user presses to open a page containing more resources for using the app, such as extra images, information and help</comment>
+        <translation>Отримайте більше онлайн</translation>
+    </message>
     <message>
         <source>Video tutorials</source>
         <comment>Text on a button the user presses to open a page containing video tutorials explaining how to use the app</comment>
@@ -669,6 +899,16 @@
         <source>Open</source>
         <comment>Text on a menu item the user presses to open a file/image</comment>
         <translation>Відкрити</translation>
+    </message>
+    <message>
+        <source>Open in viewer</source>
+        <comment>Text on a menu item the user presses to open an image/piece of media in a viewer</comment>
+        <translation>Відкрити у переглядачі</translation>
+    </message>
+    <message>
+        <source>Reveal in file explorer</source>
+        <comment>Text on a menu item the user presses to open an image/piece of media in a file viewer/explorer</comment>
+        <translation>Відкрити у переглядачі файлів</translation>
     </message>
     <message>
         <source>Copy file path to clipboard</source>
@@ -733,9 +973,19 @@
         <translation>Geometrize відтворює ваші фото, використовуючи прості геометричні форми, перетворюючи їх на унікальні витвори мистецтва.</translation>
     </message>
     <message>
+        <source>Copyright 2015-2017 Sam Twidale</source>
+        <comment>This is the copyright notice of the application.</comment>
+        <translation>Авторське право належить Сему Твайдейлу 2015-2017</translation>
+    </message>
+    <message>
         <source>Rectangles</source>
         <comment>Plural form of rectangle geometric shape</comment>
         <translation>Прямокутники</translation>
+    </message>
+    <message>
+        <source>Rotated Rectangles</source>
+        <comment>Plural form of rectangle geometric shape. These rectangles are rotated through an angle (0-360 degrees)</comment>
+        <translation>Прямокутники, що обертаються</translation>
     </message>
     <message>
         <source>Triangles</source>
@@ -746,6 +996,11 @@
         <source>Ellipses</source>
         <comment>Plural form of ellipse/ellipsoid geometric shape</comment>
         <translation>Трикрапка</translation>
+    </message>
+    <message>
+        <source>Rotated Ellipses</source>
+        <comment>Plural form of ellipse geometric shape. These ellipses are rotated through an angle (0-360 degrees)</comment>
+        <translation>Елліпси, що обертаються</translation>
     </message>
     <message>
         <source>Circles</source>

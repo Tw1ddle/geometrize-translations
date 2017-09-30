@@ -119,6 +119,11 @@
         <translation>マルチスレッド</translation>
     </message>
     <message>
+        <source>Start Up Settings</source>
+        <extracomment>Title for the on startup section of app settings. Settings in this section are applied when the app launches or first starts up</extracomment>
+        <translation>初期設定</translation>
+    </message>
+    <message>
         <source>Animate app logo on launch</source>
         <extracomment>Label text for a checkbox option that controls whether the app icon is animated (geometrized) when the app is launched</extracomment>
         <translation>起動時にアプリのロゴをアニメーションする</translation>
@@ -173,7 +178,12 @@
         <extracomment>Label text next to a value that indicates the maximum allowed height of an image in pixels</extracomment>
         <translation>最大高さ</translation>
     </message>
-    </context>
+    <message>
+        <source>Max Threads Per Image</source>
+        <extracomment>A text label next to a value that describes the maximum number of CPU threads the computer can use when recreating an image using shapes</extracomment>
+        <translation>各イメージごとの上限スレッド数</translation>
+    </message>
+</context>
 <context>
     <name>ImageTaskExportWidget</name>
     <message>
@@ -217,6 +227,16 @@
         <translation>ウェブページをエクスポートする</translation>
     </message>
     <message>
+        <source>Save HTML5 Webpage</source>
+        <extracomment>Text on a button that opens a dialog that allows a user to save a webpage that uses HTML5 web technology</extracomment>
+        <translation>HTML5 使用のウェブページを保存する</translation>
+    </message>
+    <message>
+        <source>Save WebGL Webpage</source>
+        <extracomment>Text on a button that opens a dialog that allows a user to save a webpage that uses WebGL technology</extracomment>
+        <translation>WebGL使用のウェブサイトを保存する</translation>
+    </message>
+    <message>
         <source>Export Geometry Data</source>
         <extracomment>Title text above a group of controls related to exporting and saving geometric shape data</extracomment>
         <translation>ジオメトリデータをエクスポートする</translation>
@@ -248,9 +268,24 @@
         <translation>各アップデートごとの形状数</translation>
     </message>
     <message>
+        <source>Max Shape Mutations</source>
+        <extracomment>Label text next to a slider that allows the user to control the maximum number of times a shape is modified (mutated) each time it updates</extracomment>
+        <translation>最大形状変化数</translation>
+    </message>
+    <message>
+        <source>Shape Opacity</source>
+        <extracomment>Label text next to a slider that allows the user to control opacity/transparency of the geometric shapes that are created</extracomment>
+        <translation>形状の不透明度</translation>
+    </message>
+    <message>
         <source>Random Seed</source>
         <extracomment>Label text next to the seed value of a random number generator. The seed number is a mathematical term - not like the seed of a plant!</extracomment>
         <translation>ランダムシード</translation>
+    </message>
+    <message>
+        <source>Max Threads</source>
+        <extracomment>A text label next to a value that describes the maximum number of CPU threads the computer can use when recreating an image using shapes</extracomment>
+        <translation>最大スレッド数</translation>
     </message>
     <message>
         <source>Rotated Rectangles</source>
@@ -329,6 +364,11 @@
 <context>
     <name>ImageTaskStatsWidget</name>
     <message>
+        <source>Id</source>
+        <extracomment>Text in a label next to a value that identifies the current task (an id)</extracomment>
+        <translation>タスク Id</translation>
+    </message>
+    <message>
         <source>Time Running</source>
         <extracomment>Text in a label next to the length of time a task has been running</extracomment>
         <translation>起動時間</translation>
@@ -367,9 +407,19 @@
         <translation>ビュー</translation>
     </message>
     <message>
+        <source>Stats</source>
+        <extracomment>Title of a section that contains statistics about a task, such as the length of time a task has been running</extracomment>
+        <translation>統計</translation>
+    </message>
+    <message>
         <source>Image Settings</source>
         <extracomment>Title of a section that contains settings that affect the image that the app will transform into shapes</extracomment>
         <translation>イメージを設定する</translation>
+    </message>
+    <message>
+        <source>Exporters</source>
+        <extracomment>Title of a section that contains preferences and settings for and saving and exporting results data and images</extracomment>
+        <translation>エクスポーター</translation>
     </message>
     <message>
         <source>Task Settings</source>
@@ -488,6 +538,11 @@
         <translation>サポート</translation>
     </message>
     <message>
+        <source>About</source>
+        <extracomment>Text on a menu item that opens the About page with information about the app when pressed</extracomment>
+        <translation>Geometrize について</translation>
+    </message>
+    <message>
         <source>Script Console</source>
         <extracomment>Text on a menu item that shows or hides the script console when pressed</extracomment>
         <translation>スクリプトコンソール</translation>
@@ -602,6 +657,11 @@
         <translation>GIF アニメーション (*.gif)</translation>
     </message>
     <message>
+        <source>Save HTML5 Webpage</source>
+        <comment>Title on a dialog that allows the user to save a HTML5-based webpage</comment>
+        <translation>HTML5 使用のウェブページを保存</translation>
+    </message>
+    <message>
         <source>HTML Webpage (*.html)</source>
         <comment>List of supported webpage formats. The text in the parentheses must not be changed</comment>
         <translation>HTML ウェブページ (*.html)</translation>
@@ -667,10 +727,20 @@
 </context>
 <context>
     <name>Script evaluation error dialog title</name>
-    </context>
+    <message>
+        <source>Script evaluation failure</source>
+        <comment>Title of an error message dialog shown when the app fails to run a script</comment>
+        <translation>スクリプト実行失敗</translation>
+    </message>
+</context>
 <context>
     <name>Script evaluation error message</name>
-    </context>
+    <message>
+        <source>Could not evaluate script: %1</source>
+        <comment>Error message text shown when the app fails to run a script</comment>
+        <translation>スクリプトを実行できませんでした: %1</translation>
+    </message>
+</context>
 <context>
     <name>Script evaluation unknown error</name>
     <message>
@@ -714,7 +784,12 @@
         <extracomment>Text on a button that opens a website containing tutorial videos when pressed</extracomment>
         <translation>ビデオチュートリアル</translation>
     </message>
-    </context>
+    <message>
+        <source>Show On Launch</source>
+        <extracomment>Text next to a checkbox that controls whether a window will be displayed every time the application is launched</extracomment>
+        <translation>起動時に表示する</translation>
+    </message>
+</context>
 <context>
     <name>geometrize::dialog::AboutDialog</name>
     <message>
@@ -744,6 +819,11 @@
 <context>
     <name>geometrize::dialog::ImageTaskExportWidget</name>
     <message>
+        <source>Failed to run exporter</source>
+        <comment>Title of error message shown when an attempt to save/export a file failed</comment>
+        <translation>エクスポータを立ち上げられませんでした</translation>
+    </message>
+    <message>
         <source>Failed to run exporter. Exporter was misconfigured.</source>
         <comment>Error message text shown when an attempt to save/export a file failed</comment>
         <translation>エクスポーターを立ち上げられませんでした。エクスポーターが正しくありません。</translation>
@@ -755,6 +835,11 @@
         <source>Idle</source>
         <comment>Text shown on a button when the app is not actively turning images into shapes. That is, the app is idle/not doing anything</comment>
         <translation>アイドル状態</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <comment>Text shown on a button when the app is actively turning images into shapes. That is, the app is running in the sense of being busy working/processing</comment>
+        <translation>作成中</translation>
     </message>
     <message>
         <source>%1x%2</source>
@@ -775,19 +860,39 @@
         <translation>イメージの寸法が間違っています</translation>
     </message>
     <message>
+        <source>Selected image must have the same dimensions as the current target image. Size was %1, but should have been %2</source>
+        <comment>Error message shown when the user selects an image that was the wrong resolution/size</comment>
+        <translation>選択されたイメージは現在の指定イメージと同じ寸法である必要があります。こちらのサイズは%1ですが%2でないといけません。</translation>
+    </message>
+    <message>
         <source>Start</source>
         <comment>Text on a button that the user presses to make the app start/begin transforming an image into shapes</comment>
         <translation>始める</translation>
     </message>
-    </context>
+    <message>
+        <source>Stop</source>
+        <comment>Text on a button that the user presses to make the app stop/pause transforming an image into shapes</comment>
+        <translation>停止する</translation>
+    </message>
+</context>
 <context>
     <name>geometrize::dialog::LaunchWindow</name>
+    <message>
+        <source>Get more online</source>
+        <comment>Text on a button the user presses to open a page containing more resources for using the app, such as extra images, information and help</comment>
+        <translation>オンラインでもっと詳しく確認する</translation>
+    </message>
     <message>
         <source>Video tutorials</source>
         <comment>Text on a button the user presses to open a page containing video tutorials explaining how to use the app</comment>
         <translation>ビデオチュートリアル</translation>
     </message>
-    </context>
+    <message>
+        <source>%1/%2 shapes</source>
+        <comment>Text showing the number of shapes that have been created to replicate an image so far e.g. 230/300 shapes</comment>
+        <translation>%1/%2 形状</translation>
+    </message>
+</context>
 <context>
     <name>geometrize::dialog::RecentItemWidget</name>
     <message>
@@ -917,5 +1022,10 @@
         <comment>Plural form of the polyline geometric shape (multiple line segments joined together)</comment>
         <translation>ポリライン</translation>
     </message>
-    </context>
+    <message>
+        <source>Unknown Shapes</source>
+        <comment>Plural form of an unknown type of shapes</comment>
+        <translation>不明の形状</translation>
+    </message>
+</context>
 </TS>

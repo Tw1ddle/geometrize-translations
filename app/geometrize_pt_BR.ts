@@ -24,7 +24,12 @@
 </context>
 <context>
     <name>CommandLineEdit</name>
-    </context>
+    <message>
+        <source>Type a command...</source>
+        <extracomment>Text shown in a command-line style text box. Prompts the user to type something</extracomment>
+        <translation>Digite um comando</translation>
+    </message>
+</context>
 <context>
     <name>CreditsDialog</name>
     <message>
@@ -36,6 +41,11 @@
         <source>Developers</source>
         <extracomment>Title of a page listing the names of programmers who developed the app</extracomment>
         <translation>Desenvolvedores</translation>
+    </message>
+    <message>
+        <source>Translators</source>
+        <extracomment>Title of a page listing the names of translators who worked on the app</extracomment>
+        <translation>Tradutores</translation>
     </message>
     <message>
         <source>Artists</source>
@@ -79,6 +89,11 @@
         <translation>Exibir</translation>
     </message>
     <message>
+        <source>Performance</source>
+        <extracomment>Title text for performance-related (processing speed) app preferences or settings section</extracomment>
+        <translation>Desempenho</translation>
+    </message>
+    <message>
         <source>Language</source>
         <extracomment>Title text for a language and locale app settings section</extracomment>
         <translation>Idioma</translation>
@@ -114,6 +129,11 @@
         <translation>Logotipo do aplicativo animado na abertura</translation>
     </message>
     <message>
+        <source>Load recent items list</source>
+        <extracomment>Label text for a checkbox option that controls whether the list of recent files or items is filled up when the app is launched</extracomment>
+        <translation>Carregar lista de itens recentes</translation>
+    </message>
+    <message>
         <source>Load sample images</source>
         <extracomment>Label text for a checkbox option that controls whether a list of sample images is loaded up when the app is launched</extracomment>
         <translation>Carregar imagens de amostra</translation>
@@ -132,6 +152,11 @@
         <source>Image Geometrizer Settings</source>
         <extracomment>Title for the app settings section that contains options that affect the area of the app that turns images into shapes (the image geometrizer)</extracomment>
         <translation>Configurações do geometrizador de imagem</translation>
+    </message>
+    <message>
+        <source>Show vector image view</source>
+        <extracomment>Label text next to a checkbox that controls whether a vector-based (SVG-based) image is shown or hidden</extracomment>
+        <translation>Exibir visualização de imagem vetorial</translation>
     </message>
     <message>
         <source>Show raster image view</source>
@@ -286,6 +311,11 @@
         <source>Triangles</source>
         <extracomment>Plural form of triangle geometric shape</extracomment>
         <translation>Triângulos</translation>
+    </message>
+    <message>
+        <source>Rectangles</source>
+        <extracomment>Plural form of rectangle geometric shape</extracomment>
+        <translation>Retângulos</translation>
     </message>
     <message>
         <source>Lines</source>
@@ -444,7 +474,12 @@
         <extracomment>A text label next to an item containing the technical locale code the app is running under (such as en_US for US English)</extracomment>
         <translation>Identificador de Local</translation>
     </message>
-    </context>
+    <message>
+        <source>Options</source>
+        <extracomment>The title of a section containing the language selection options for the app</extracomment>
+        <translation>Opções</translation>
+    </message>
+</context>
 <context>
     <name>LaunchWindow</name>
     <message>
@@ -496,6 +531,11 @@
         <source>Tutorials</source>
         <extracomment>Text on a menu item that opens the tutorials page when pressed</extracomment>
         <translation>Tutoriais</translation>
+    </message>
+    <message>
+        <source>Support</source>
+        <extracomment>Text on a menu item that opens the customer support/help page when pressed</extracomment>
+        <translation>Suporte</translation>
     </message>
     <message>
         <source>About</source>
@@ -627,6 +667,11 @@
         <translation>Página da Web HTML (*.html)</translation>
     </message>
     <message>
+        <source>Save WebGL Webpage</source>
+        <comment>Title on a dialog that allows the user to save a WebGL-based webpage</comment>
+        <translation>Salvar Página da Web WebGL</translation>
+    </message>
+    <message>
         <source>Select Script</source>
         <comment>Title on a dialog that allows the user to select a script file</comment>
         <translation>Selecionar Script</translation>
@@ -720,9 +765,19 @@
 <context>
     <name>WelcomeDialog</name>
     <message>
+        <source>Welcome</source>
+        <extracomment>Title of the dialog that greets/welcomes the user to the app</extracomment>
+        <translation>Bem-vindo</translation>
+    </message>
+    <message>
         <source>Welcome to Geometrize. Watch the video tutorials below to learn the basics.</source>
         <extracomment>Message that welcomes users to the application</extracomment>
         <translation>Bem-vindo ao Geometrize. Assista aos tutoriais em vídeo abaixo para aprender o básico.</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <extracomment>Text on a button in a dialog. Pressing the button closes the dialog.</extracomment>
+        <translation>Fechar</translation>
     </message>
     <message>
         <source>Video Tutorials</source>
@@ -777,6 +832,11 @@
 <context>
     <name>geometrize::dialog::ImageTaskStatsWidget</name>
     <message>
+        <source>Idle</source>
+        <comment>Text shown on a button when the app is not actively turning images into shapes. That is, the app is idle/not doing anything</comment>
+        <translation>Inativo</translation>
+    </message>
+    <message>
         <source>Running</source>
         <comment>Text shown on a button when the app is actively turning images into shapes. That is, the app is running in the sense of being busy working/processing</comment>
         <translation>Em uso</translation>
@@ -793,6 +853,11 @@
         <source>%1x%2</source>
         <comment>Dimensions of an image e.g. width-x-height, 1024x800</comment>
         <translation>%1x%2</translation>
+    </message>
+    <message>
+        <source>Image has incorrect dimensions</source>
+        <comment>Title of an error dialog shown when the user selects an image that was the wrong resolution/size</comment>
+        <translation>A imagem tem dimensões incorretas</translation>
     </message>
     <message>
         <source>Selected image must have the same dimensions as the current target image. Size was %1, but should have been %2</source>
@@ -830,6 +895,11 @@
 </context>
 <context>
     <name>geometrize::dialog::RecentItemWidget</name>
+    <message>
+        <source>Open</source>
+        <comment>Text on a menu item the user presses to open a file/image</comment>
+        <translation>Abrir</translation>
+    </message>
     <message>
         <source>Open in viewer</source>
         <comment>Text on a menu item the user presses to open an image/piece of media in a viewer</comment>
@@ -871,7 +941,17 @@
         <comment>Text on a label containing the legal license a piece of media is under, usually an image e.g. License: Public Domain</comment>
         <translation>Licença: %2</translation>
     </message>
-    </context>
+    <message>
+        <source>Open</source>
+        <comment>Text on a menu item the user presses to open a file/image</comment>
+        <translation>Abrir</translation>
+    </message>
+    <message>
+        <source>Reveal in file explorer</source>
+        <comment>Text on a menu item the user presses to open an image/piece of media in a file viewer/explorer</comment>
+        <translation>Revelar no explorador de arquivos</translation>
+    </message>
+</context>
 <context>
     <name>geometrize::dialog::WelcomeDialog</name>
     <message>
@@ -911,6 +991,16 @@
         <source>Triangles</source>
         <comment>Plural form of triangle geometric shape</comment>
         <translation>Triângulos</translation>
+    </message>
+    <message>
+        <source>Ellipses</source>
+        <comment>Plural form of ellipse/ellipsoid geometric shape</comment>
+        <translation>Elipses</translation>
+    </message>
+    <message>
+        <source>Rotated Ellipses</source>
+        <comment>Plural form of ellipse geometric shape. These ellipses are rotated through an angle (0-360 degrees)</comment>
+        <translation>Elipses Rotacionadas</translation>
     </message>
     <message>
         <source>Circles</source>

@@ -2,6 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
+        <source>About</source>
+        <extracomment>Title of the About page of the app, containing general info about the app such as the app name, version and copyright notices</extracomment>
+        <translation>Om</translation>
+    </message>
+    <message>
         <source>Credits</source>
         <extracomment>Text on a button that opens the credits page, which contains the names of people who contributed to creating the app</extracomment>
         <translation>Kredit</translation>
@@ -273,6 +278,11 @@
         <translation>Figurgennemsigtighed</translation>
     </message>
     <message>
+        <source>Random Seed</source>
+        <extracomment>Label text next to the seed value of a random number generator. The seed number is a mathematical term - not like the seed of a plant!</extracomment>
+        <translation>Tilfældigt seed</translation>
+    </message>
+    <message>
         <source>Max Threads</source>
         <extracomment>A text label next to a value that describes the maximum number of CPU threads the computer can use when recreating an image using shapes</extracomment>
         <translation>Maks tråde</translation>
@@ -303,6 +313,11 @@
         <translation>Triangler</translation>
     </message>
     <message>
+        <source>Rectangles</source>
+        <extracomment>Plural form of rectangle geometric shape</extracomment>
+        <translation>Rektangler</translation>
+    </message>
+    <message>
         <source>Lines</source>
         <extracomment>Plural form of the simple line geometric shape</extracomment>
         <translation>Linjer</translation>
@@ -311,6 +326,11 @@
         <source>Rotated Ellipses</source>
         <extracomment>Plural form of ellipse geometric shape. These ellipses are rotated through an angle (0-360 degrees)</extracomment>
         <translation>Roterede ellipser</translation>
+    </message>
+    <message>
+        <source>Polylines</source>
+        <extracomment>Plural form of the polyline geometric shape (multiple line segments joined together)</extracomment>
+        <translation>Polylinjer</translation>
     </message>
     <message>
         <source>Step</source>
@@ -329,6 +349,11 @@
         <source>Script Editor</source>
         <extracomment>Title of a window containing text editor panels for editing scripts. Scripts are pieces of code that are used to control how the app turns images into shapes</extracomment>
         <translation>Script-editor</translation>
+    </message>
+    <message>
+        <source>Scripting Engine Enabled</source>
+        <extracomment>Text next to a checkbox that enables or disables the scripting engine when pressed</extracomment>
+        <translation>Scripting engine aktiveret</translation>
     </message>
     <message>
         <source>Reset Scripting Engine</source>
@@ -375,6 +400,16 @@
         <source>File</source>
         <extracomment>The title of the File menu that contains commands relating to the handling of files, such as open, save, print, etc</extracomment>
         <translation>Fil</translation>
+    </message>
+    <message>
+        <source>View</source>
+        <extracomment>The title of the View menu that contains commands relating to the handling of visual elements, such as the size and visibility of windows and dialogs within the app</extracomment>
+        <translation>Vis</translation>
+    </message>
+    <message>
+        <source>Stats</source>
+        <extracomment>Title of a section that contains statistics about a task, such as the length of time a task has been running</extracomment>
+        <translation>Statistik</translation>
     </message>
     <message>
         <source>Image Settings</source>
@@ -448,14 +483,29 @@
 <context>
     <name>LaunchWindow</name>
     <message>
+        <source>Geometrize Launcher</source>
+        <extracomment>Title of the main window of the app. It is the launcher window - so called because it is mainly used to launch other tasks</extracomment>
+        <translation>Geometrize starter</translation>
+    </message>
+    <message>
         <source>Open Image</source>
         <extracomment>Text on a button that opens an image selection dialog when it is pressed</extracomment>
         <translation>Åben billede</translation>
     </message>
     <message>
+        <source>Open Link</source>
+        <extracomment>Text on a button that opens a dialog that allows the user to enter a website link, which is then downloaded</extracomment>
+        <translation>Åben link</translation>
+    </message>
+    <message>
         <source>Run Script</source>
         <extracomment>Text on a button that opens a dialog that allows the user to select and run a script file</extracomment>
         <translation>Kør script</translation>
+    </message>
+    <message>
+        <source>Recent</source>
+        <extracomment>Title of a section that contains a list of files and items the user recently opened</extracomment>
+        <translation>Seneste</translation>
     </message>
     <message>
         <source>File</source>
@@ -471,6 +521,11 @@
         <source>View</source>
         <extracomment>The title of the View menu that contains commands relating to the handling of visual elements, such as the size and visibility of windows and dialogs within the app</extracomment>
         <translation>Vis</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <extracomment>Text on a menu item that closes the window when pressed</extracomment>
+        <translation>Afslut</translation>
     </message>
     <message>
         <source>Tutorials</source>
@@ -552,6 +607,11 @@
         <translation>Åben billede</translation>
     </message>
     <message>
+        <source>Image Files (*.jpg *.jpeg *.png *.bmp)</source>
+        <comment>List of supported image file formats. The text in the parentheses must not be changed</comment>
+        <translation>Billedfiler (*.jpg *.jpeg *.png *.bmp)</translation>
+    </message>
+    <message>
         <source>Save Image</source>
         <comment>Title on a dialog that allows the user to save an image file</comment>
         <translation>Gem billede</translation>
@@ -567,6 +627,11 @@
         <translation>Gem SVG-billede</translation>
     </message>
     <message>
+        <source>SVG Image (*.svg)</source>
+        <comment>List of supported vector-based image formats. The text in the parentheses must not be changed</comment>
+        <translation>SVG-billede (*.svg)</translation>
+    </message>
+    <message>
         <source>Save Images</source>
         <comment>Title on a dialog that allows the user to save image files</comment>
         <translation>Gem billeder</translation>
@@ -575,6 +640,11 @@
         <source>Save Geometry Data</source>
         <comment>Title on a dialog that allows the user to save geometric primitive data</comment>
         <translation>Vis geometridata</translation>
+    </message>
+    <message>
+        <source>JSON Data (*.json);;Text Array (*.txt)</source>
+        <comment>List of supported data file formats. Semicolons and text in the parentheses must not be changed</comment>
+        <translation>JSON-data(*.json);;Tekst-array (*.txt)</translation>
     </message>
     <message>
         <source>Save Animated GIF</source>
@@ -590,6 +660,16 @@
         <source>Save HTML5 Webpage</source>
         <comment>Title on a dialog that allows the user to save a HTML5-based webpage</comment>
         <translation>Gem HTML5-hjemmeside</translation>
+    </message>
+    <message>
+        <source>HTML Webpage (*.html)</source>
+        <comment>List of supported webpage formats. The text in the parentheses must not be changed</comment>
+        <translation>HTML-hjemmeside (*.html)</translation>
+    </message>
+    <message>
+        <source>Save WebGL Webpage</source>
+        <comment>Title on a dialog that allows the user to save a WebGL-based webpage</comment>
+        <translation>Gem WebGL hjemmeside</translation>
     </message>
     <message>
         <source>Select Script</source>
@@ -704,13 +784,23 @@
         <extracomment>Text on a button that opens a website containing tutorial videos when pressed</extracomment>
         <translation>Videovejledninger</translation>
     </message>
-    </context>
+    <message>
+        <source>Show On Launch</source>
+        <extracomment>Text next to a checkbox that controls whether a window will be displayed every time the application is launched</extracomment>
+        <translation>Vis ved opstart</translation>
+    </message>
+</context>
 <context>
     <name>geometrize::dialog::AboutDialog</name>
     <message>
         <source>About %1</source>
         <comment>The title of the 'about' page with information about the application</comment>
         <translation>Om %1</translation>
+    </message>
+    <message>
+        <source>Build Info:</source>
+        <comment>Technical information about the way the software was built follows</comment>
+        <translation>Build info:</translation>
     </message>
     <message>
         <source>Runtime Info:</source>
@@ -825,7 +915,12 @@
         <comment>Text on a menu item the user selects to copy a file path to the copy-paste clipboard</comment>
         <translation>Kopier filsti til udklipsholder</translation>
     </message>
-    </context>
+    <message>
+        <source>Remove from list</source>
+        <comment>Text on a menu item the user presses to remove an item from a list of items</comment>
+        <translation>Fjern fra liste</translation>
+    </message>
+</context>
 <context>
     <name>geometrize::dialog::ScriptConsole</name>
     <message>
@@ -840,6 +935,16 @@
         <source>Name: %1</source>
         <comment>Text on a label containing the name of an item, usually an image e.g. Name: The Mona Lisa</comment>
         <translation>Navn: %1</translation>
+    </message>
+    <message>
+        <source>License: %2</source>
+        <comment>Text on a label containing the legal license a piece of media is under, usually an image e.g. License: Public Domain</comment>
+        <translation>Licens: %2</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <comment>Text on a menu item the user presses to open a file/image</comment>
+        <translation>Åben</translation>
     </message>
     <message>
         <source>Reveal in file explorer</source>
@@ -857,6 +962,11 @@
 </context>
 <context>
     <name>geometrize::strings::Strings</name>
+    <message>
+        <source>Geometrize</source>
+        <comment>This means to 'turn into geometry' or to 'represent using geometric primitives'. The name of the application, so must be short and meaningful. Do not translate if this is difficult to communicate in one word.</comment>
+        <translation>Geometrize</translation>
+    </message>
     <message>
         <source>Geometrize recreates your photos using simple geometric shapes, transforming them into unique artwork.</source>
         <comment>This is a short description for what this application is and what it does.</comment>
@@ -888,6 +998,11 @@
         <translation>Ellipser</translation>
     </message>
     <message>
+        <source>Rotated Ellipses</source>
+        <comment>Plural form of ellipse geometric shape. These ellipses are rotated through an angle (0-360 degrees)</comment>
+        <translation>Roterede ellipser</translation>
+    </message>
+    <message>
         <source>Circles</source>
         <comment>Plural form of circle/circular geometric shape</comment>
         <translation>Cirkler</translation>
@@ -896,6 +1011,11 @@
         <source>Lines</source>
         <comment>Plural form of the simple line geometric shape</comment>
         <translation>Linjer</translation>
+    </message>
+    <message>
+        <source>Quadratic Beziers</source>
+        <comment>Plural form of quadratic bezier curve geometric shape</comment>
+        <translation>Kvadratiske bézierkurver</translation>
     </message>
     <message>
         <source>Polylines</source>
