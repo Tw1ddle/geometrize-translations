@@ -575,12 +575,6 @@
     <name>LaunchWindow</name>
     <message>
         <location filename="../../geometrize/dialog/launchwindow.ui"/>
-        <source>Geometrize Launcher</source>
-        <extracomment>Title of the main window of the app. It is the launcher window - so called because it is mainly used to launch other tasks</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location/>
         <source>Open Image</source>
         <extracomment>Text on a button that opens an image selection dialog when it is pressed</extracomment>
         <translation type="unfinished"></translation>
@@ -949,7 +943,7 @@
 <context>
     <name>geometrize::dialog::AboutDialog</name>
     <message>
-        <location filename="../../geometrize/dialog/aboutdialog.cpp" line="+23"/>
+        <location filename="../../geometrize/dialog/aboutdialog.cpp" line="+58"/>
         <source>About %1</source>
         <comment>The title of the &apos;about&apos; page with information about the application</comment>
         <translation type="unfinished"></translation>
@@ -970,7 +964,7 @@
 <context>
     <name>geometrize::dialog::CreditsDialog</name>
     <message>
-        <location filename="../../geometrize/dialog/creditsdialog.cpp" line="+21"/>
+        <location filename="../../geometrize/dialog/creditsdialog.cpp" line="+40"/>
         <source>Special thanks to: %1</source>
         <comment>Message that thanks contributors to the project. A list of names of people who contributed to the project follows this.</comment>
         <translation type="unfinished"></translation>
@@ -979,7 +973,7 @@
 <context>
     <name>geometrize::dialog::ImageTaskExportWidget</name>
     <message>
-        <location filename="../../geometrize/dialog/imagetaskexportwidget.cpp" line="+195"/>
+        <location filename="../../geometrize/dialog/imagetaskexportwidget.cpp" line="+206"/>
         <source>Failed to run exporter</source>
         <comment>Title of error message shown when an attempt to save/export a file failed</comment>
         <translation type="unfinished"></translation>
@@ -994,7 +988,7 @@
 <context>
     <name>geometrize::dialog::ImageTaskStatsWidget</name>
     <message>
-        <location filename="../../geometrize/dialog/imagetaskstatswidget.cpp" line="+41"/>
+        <location filename="../../geometrize/dialog/imagetaskstatswidget.cpp" line="+86"/>
         <source>Idle</source>
         <comment>Text shown on a button when the app is not actively turning images into shapes. That is, the app is idle/not doing anything</comment>
         <translation type="unfinished"></translation>
@@ -1006,7 +1000,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="-11"/>
         <source>%1x%2</source>
         <comment>Dimensions of an image e.g. width-x-height, 1024x800</comment>
         <translation type="unfinished"></translation>
@@ -1015,7 +1009,7 @@
 <context>
     <name>geometrize::dialog::ImageTaskWindow</name>
     <message>
-        <location filename="../../geometrize/dialog/imagetaskwindow.cpp" line="+167"/>
+        <location filename="../../geometrize/dialog/imagetaskwindow.cpp" line="+175"/>
         <location line="+1"/>
         <source>%1x%2</source>
         <comment>Dimensions of an image e.g. width-x-height, 1024x800</comment>
@@ -1034,13 +1028,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+228"/>
         <source>Start</source>
         <comment>Text on a button that the user presses to make the app start/begin transforming an image into shapes</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
         <source>Stop</source>
         <comment>Text on a button that the user presses to make the app stop/pause transforming an image into shapes</comment>
         <translation type="unfinished"></translation>
@@ -1049,7 +1043,7 @@
 <context>
     <name>geometrize::dialog::LaunchWindow</name>
     <message>
-        <location filename="../../geometrize/dialog/launchwindow.cpp" line="+36"/>
+        <location filename="../../geometrize/dialog/launchwindow.cpp" line="+135"/>
         <source>Get more online</source>
         <comment>Text on a button the user presses to open a page containing more resources for using the app, such as extra images, information and help</comment>
         <translation type="unfinished"></translation>
@@ -1061,7 +1055,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+111"/>
+        <location line="+8"/>
         <source>%1/%2 shapes</source>
         <comment>Text showing the number of shapes that have been created to replicate an image so far e.g. 230/300 shapes</comment>
         <translation type="unfinished"></translation>
@@ -1070,7 +1064,7 @@
 <context>
     <name>geometrize::dialog::RecentItemWidget</name>
     <message>
-        <location filename="../../geometrize/dialog/recentitemwidget.cpp" line="+56"/>
+        <location filename="../../geometrize/dialog/recentitemwidget.cpp" line="+57"/>
         <source>Open</source>
         <comment>Text on a menu item the user presses to open a file/image</comment>
         <translation type="unfinished"></translation>
@@ -1103,16 +1097,16 @@
 <context>
     <name>geometrize::dialog::ScriptConsole</name>
     <message>
-        <location filename="../../geometrize/dialog/scriptconsole.cpp" line="+25"/>
+        <location filename="../../geometrize/dialog/scriptconsole.cpp" line="+26"/>
         <source>Type &apos;help&apos; in console for a list of commands</source>
-        <comment>Instructional text shown in the command/scripting console</comment>
+        <comment>Instructional text shown in the command/scripting console. The &apos;help&apos; string should not be translated</comment>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>geometrize::dialog::TemplateButton</name>
     <message>
-        <location filename="../../geometrize/dialog/templatebutton.cpp" line="+46"/>
+        <location filename="../../geometrize/dialog/templatebutton.cpp" line="+123"/>
         <source>Name: %1</source>
         <comment>Text on a label containing the name of an item, usually an image e.g. Name: The Mona Lisa</comment>
         <translation type="unfinished"></translation>
@@ -1124,7 +1118,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="-37"/>
         <source>Open</source>
         <comment>Text on a menu item the user presses to open a file/image</comment>
         <translation type="unfinished"></translation>
@@ -1139,7 +1133,7 @@
 <context>
     <name>geometrize::dialog::WelcomeDialog</name>
     <message>
-        <location filename="../../geometrize/dialog/welcomedialog.cpp" line="+36"/>
+        <location filename="../../geometrize/dialog/welcomedialog.cpp" line="+72"/>
         <source>Welcome To %1</source>
         <comment>A subtitle on the &apos;tutorial&apos; page welcoming the user to the software</comment>
         <translation type="unfinished"></translation>
