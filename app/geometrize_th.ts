@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="th">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="th" version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -574,12 +572,13 @@
 <context>
     <name>LaunchWindow</name>
     <message>
+        <location filename="../../geometrize/dialog/launchwindow.ui"/>
         <source>Geometrize Launcher</source>
         <extracomment>Title of the main window of the app. It is the launcher window - so called because it is mainly used to launch other tasks</extracomment>
-        <translation type="vanished">ตัวเริ่มทำงานจีโอเมไทรซ์</translation>
+        <translation>ตัวเริ่มทำงานจีโอเมไทรซ์</translation>
     </message>
     <message>
-        <location filename="../../geometrize/dialog/launchwindow.ui"/>
+        <location/>
         <source>Open Image</source>
         <extracomment>Text on a button that opens an image selection dialog when it is pressed</extracomment>
         <translation>เปิดภาพ</translation>
@@ -949,9 +948,9 @@
 <context>
     <name>geometrize::dialog::AboutDialog</name>
     <message>
-        <location filename="../../geometrize/dialog/aboutdialog.cpp" line="+58"/>
+        <location filename="../../geometrize/dialog/aboutdialog.cpp" line="+23"/>
         <source>About %1</source>
-        <comment>The title of the &apos;about&apos; page with information about the application</comment>
+        <comment>The title of the 'about' page with information about the application</comment>
         <translation>เกี่ยวกับ %1</translation>
     </message>
     <message>
@@ -970,7 +969,7 @@
 <context>
     <name>geometrize::dialog::CreditsDialog</name>
     <message>
-        <location filename="../../geometrize/dialog/creditsdialog.cpp" line="+40"/>
+        <location filename="../../geometrize/dialog/creditsdialog.cpp" line="+21"/>
         <source>Special thanks to: %1</source>
         <comment>Message that thanks contributors to the project. A list of names of people who contributed to the project follows this.</comment>
         <translation>ขอขอบคุณเป็นพิเศษถึง: %1</translation>
@@ -979,7 +978,7 @@
 <context>
     <name>geometrize::dialog::ImageTaskExportWidget</name>
     <message>
-        <location filename="../../geometrize/dialog/imagetaskexportwidget.cpp" line="+206"/>
+        <location filename="../../geometrize/dialog/imagetaskexportwidget.cpp" line="+195"/>
         <source>Failed to run exporter</source>
         <comment>Title of error message shown when an attempt to save/export a file failed</comment>
         <translation>การเริ่มการส่งข้อมูลออกล้มเหลว</translation>
@@ -994,7 +993,7 @@
 <context>
     <name>geometrize::dialog::ImageTaskStatsWidget</name>
     <message>
-        <location filename="../../geometrize/dialog/imagetaskstatswidget.cpp" line="+86"/>
+        <location filename="../../geometrize/dialog/imagetaskstatswidget.cpp" line="+41"/>
         <source>Idle</source>
         <comment>Text shown on a button when the app is not actively turning images into shapes. That is, the app is idle/not doing anything</comment>
         <translation>ไม่ได้ใช้งาน</translation>
@@ -1006,7 +1005,7 @@
         <translation>กำลังทำงาน</translation>
     </message>
     <message>
-        <location line="-11"/>
+        <location line="+20"/>
         <source>%1x%2</source>
         <comment>Dimensions of an image e.g. width-x-height, 1024x800</comment>
         <translation>%1x%2</translation>
@@ -1015,7 +1014,7 @@
 <context>
     <name>geometrize::dialog::ImageTaskWindow</name>
     <message>
-        <location filename="../../geometrize/dialog/imagetaskwindow.cpp" line="+175"/>
+        <location filename="../../geometrize/dialog/imagetaskwindow.cpp" line="+167"/>
         <location line="+1"/>
         <source>%1x%2</source>
         <comment>Dimensions of an image e.g. width-x-height, 1024x800</comment>
@@ -1034,13 +1033,13 @@
         <translation>ภาพที่เลือกต้องมีขนาดเท่ากับภาพเป้าหมายปัจจุบัน ขนาดอยู่ที่ %1 แต่จริงๆ แล้วควรจะเป็น %2</translation>
     </message>
     <message>
-        <location line="+228"/>
+        <location line="+35"/>
         <source>Start</source>
         <comment>Text on a button that the user presses to make the app start/begin transforming an image into shapes</comment>
         <translation>เริ่ม</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Stop</source>
         <comment>Text on a button that the user presses to make the app stop/pause transforming an image into shapes</comment>
         <translation>หยุด</translation>
@@ -1049,7 +1048,7 @@
 <context>
     <name>geometrize::dialog::LaunchWindow</name>
     <message>
-        <location filename="../../geometrize/dialog/launchwindow.cpp" line="+135"/>
+        <location filename="../../geometrize/dialog/launchwindow.cpp" line="+36"/>
         <source>Get more online</source>
         <comment>Text on a button the user presses to open a page containing more resources for using the app, such as extra images, information and help</comment>
         <translation>หาเพิ่มเติมออนไลน์</translation>
@@ -1061,7 +1060,7 @@
         <translation>วิดีโอการสอน</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+111"/>
         <source>%1/%2 shapes</source>
         <comment>Text showing the number of shapes that have been created to replicate an image so far e.g. 230/300 shapes</comment>
         <translation>%1/%2 รูปทรง</translation>
@@ -1070,7 +1069,7 @@
 <context>
     <name>geometrize::dialog::RecentItemWidget</name>
     <message>
-        <location filename="../../geometrize/dialog/recentitemwidget.cpp" line="+57"/>
+        <location filename="../../geometrize/dialog/recentitemwidget.cpp" line="+56"/>
         <source>Open</source>
         <comment>Text on a menu item the user presses to open a file/image</comment>
         <translation>เปิด</translation>
@@ -1103,21 +1102,16 @@
 <context>
     <name>geometrize::dialog::ScriptConsole</name>
     <message>
+        <location filename="../../geometrize/dialog/scriptconsole.cpp" line="+25"/>
         <source>Type &apos;help&apos; in console for a list of commands</source>
         <comment>Instructional text shown in the command/scripting console</comment>
-        <translation type="vanished">พิมพ์  &apos;help&apos; เพื่อดูรายการคำสั่ง</translation>
-    </message>
-    <message>
-        <location filename="../../geometrize/dialog/scriptconsole.cpp" line="+26"/>
-        <source>Type &apos;help&apos; in console for a list of commands</source>
-        <comment>Instructional text shown in the command/scripting console. The &apos;help&apos; string should not be translated</comment>
-        <translation type="unfinished">พิมพ์  &apos;help&apos; เพื่อดูรายการคำสั่ง</translation>
+        <translation>พิมพ์  &apos;help&apos; เพื่อดูรายการคำสั่ง</translation>
     </message>
 </context>
 <context>
     <name>geometrize::dialog::TemplateButton</name>
     <message>
-        <location filename="../../geometrize/dialog/templatebutton.cpp" line="+123"/>
+        <location filename="../../geometrize/dialog/templatebutton.cpp" line="+46"/>
         <source>Name: %1</source>
         <comment>Text on a label containing the name of an item, usually an image e.g. Name: The Mona Lisa</comment>
         <translation>ชื่อ: %1</translation>
@@ -1129,7 +1123,7 @@
         <translation>สิทธิ์การใช้งาน: %2</translation>
     </message>
     <message>
-        <location line="-37"/>
+        <location line="+40"/>
         <source>Open</source>
         <comment>Text on a menu item the user presses to open a file/image</comment>
         <translation>เปิด</translation>
@@ -1144,9 +1138,9 @@
 <context>
     <name>geometrize::dialog::WelcomeDialog</name>
     <message>
-        <location filename="../../geometrize/dialog/welcomedialog.cpp" line="+72"/>
+        <location filename="../../geometrize/dialog/welcomedialog.cpp" line="+36"/>
         <source>Welcome To %1</source>
-        <comment>A subtitle on the &apos;tutorial&apos; page welcoming the user to the software</comment>
+        <comment>A subtitle on the 'tutorial' page welcoming the user to the software</comment>
         <translation>ขอต้อนรับสู่ %1</translation>
     </message>
 </context>
@@ -1155,7 +1149,7 @@
     <message>
         <location filename="../../geometrize/localization/strings.cpp" line="+11"/>
         <source>Geometrize</source>
-        <comment>This means to &apos;turn into geometry&apos; or to &apos;represent using geometric primitives&apos;. The name of the application, so must be short and meaningful. Do not translate if this is difficult to communicate in one word.</comment>
+        <comment>This means to 'turn into geometry' or to 'represent using geometric primitives'. The name of the application, so must be short and meaningful. Do not translate if this is difficult to communicate in one word.</comment>
         <translation>Geometrize</translation>
     </message>
     <message>
