@@ -34,7 +34,7 @@ qtPrepareTool(LRELEASE, lrelease)
 for(language, LANGUAGES) {
     tsfile = $$system_path($${PWD}/app/geometrize_$${language}.ts)
     qmfile = $$system_path($${PWD}/../resources/translations/app/geometrize_$${language}.qm)
-    command = "\"$$system_path($${LRELEASE})"\" -removeidentical "\"$${tsfile}"\" -qm "\"$${qmfile}"\"
+    command = $${LRELEASE} -removeidentical "\"$${tsfile}"\" -qm "\"$${qmfile}"\"
     message("Will run lrelease:")
     message($${command})
     system($${command})|error("Failed to generate qm file")
