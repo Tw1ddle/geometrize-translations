@@ -32,9 +32,9 @@ LUPDATE += -locations relative -no-ui-lines
 # Generate qm files from the ts files for the supported languages and place them in the resources folder, ready to be bundled as resources
 qtPrepareTool(LRELEASE, lrelease)
 for(language, LANGUAGES) {
-    tsfile = $$shell_quote($${PWD}/app/geometrize_$${language}.ts)
-    qmfile = $$shell_quote($${PWD}/../resources/translations/app/geometrize_$${language}.qm)
-    command = $$shell_path($${LRELEASE}) -removeidentical $${tsfile} -qm $${qmfile}
+    tsfile = $$system_quote($$system_path($${PWD}/app/geometrize_$${language}.ts))
+    qmfile = $$system_quote($$system_path($${PWD}/../resources/translations/app/geometrize_$${language}.qm))
+    command = $$system_quote($$system_path($${LRELEASE})) -removeidentical $${tsfile} -qm $${qmfile}
     message("Will run lrelease:")
     message($${command})
     system($${command})|error("Failed to generate qm file")
