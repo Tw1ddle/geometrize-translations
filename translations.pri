@@ -34,7 +34,11 @@ qtPrepareTool(LRELEASE, lrelease)
 for(language, LANGUAGES) {
     tsfile = $$system_path($${PWD}/app/geometrize_$${language}.ts)
     qmfile = $$system_path($${PWD}/../resources/translations/app/geometrize_$${language}.qm)
-    command = $${LRELEASE} -removeidentical "\"$${tsfile}"\" -qm "\"$${qmfile}"\"
+
+    # For some reason AppVeyor mingw builds put single quotes around the lrelease path, this removes them
+    lrelease_path = $$replace(LRELEASE, \',)
+
+    command = "\"$${lrelease_path}\"" -removeidentical "\"$${tsfile}\"" -qm "\"$${qmfile}\""
     message("Will run lrelease:")
     message($${command})
     system($${command})|error("Failed to generate qm file")
