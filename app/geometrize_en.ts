@@ -908,15 +908,9 @@
     </message>
 </context>
 <context>
-    <name>WelcomeDialog</name>
+    <name>WelcomeWindow</name>
     <message>
-        <location filename="../../geometrize/dialog/welcomedialog.ui"/>
-        <source>Welcome</source>
-        <extracomment>Title of the dialog that greets/welcomes the user to the app</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location/>
+        <location filename="../../geometrize/dialog/welcomewindow.ui"/>
         <source>Welcome to Geometrize. Watch the video tutorials below to learn the basics.</source>
         <extracomment>Message that welcomes users to the application</extracomment>
         <translation type="unfinished"></translation>
@@ -1009,7 +1003,7 @@
 <context>
     <name>geometrize::dialog::ImageTaskWindow</name>
     <message>
-        <location filename="../../geometrize/dialog/imagetaskwindow.cpp" line="+175"/>
+        <location filename="../../geometrize/dialog/imagetaskwindow.cpp" line="+183"/>
         <location line="+1"/>
         <source>%1x%2</source>
         <comment>Dimensions of an image e.g. width-x-height, 1024x800</comment>
@@ -1043,7 +1037,7 @@
 <context>
     <name>geometrize::dialog::LaunchWindow</name>
     <message>
-        <location filename="../../geometrize/dialog/launchwindow.cpp" line="+135"/>
+        <location filename="../../geometrize/dialog/launchwindow.cpp" line="+140"/>
         <source>Get more online</source>
         <comment>Text on a button the user presses to open a page containing more resources for using the app, such as extra images, information and help</comment>
         <translation type="unfinished"></translation>
@@ -1055,7 +1049,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+13"/>
         <source>%1/%2 shapes</source>
         <comment>Text showing the number of shapes that have been created to replicate an image so far e.g. 230/300 shapes</comment>
         <translation type="unfinished"></translation>
@@ -1106,7 +1100,7 @@
 <context>
     <name>geometrize::dialog::TemplateButton</name>
     <message>
-        <location filename="../../geometrize/dialog/templatebutton.cpp" line="+123"/>
+        <location filename="../../geometrize/dialog/templatebutton.cpp" line="+131"/>
         <source>Name: %1</source>
         <comment>Text on a label containing the name of an item, usually an image e.g. Name: The Mona Lisa</comment>
         <translation type="unfinished"></translation>
@@ -1131,9 +1125,9 @@
     </message>
 </context>
 <context>
-    <name>geometrize::dialog::WelcomeDialog</name>
+    <name>geometrize::dialog::WelcomeWindow</name>
     <message>
-        <location filename="../../geometrize/dialog/welcomedialog.cpp" line="+72"/>
+        <location filename="../../geometrize/dialog/welcomewindow.cpp" line="+79"/>
         <source>Welcome To %1</source>
         <comment>A subtitle on the &apos;tutorial&apos; page welcoming the user to the software</comment>
         <translation type="unfinished"></translation>
