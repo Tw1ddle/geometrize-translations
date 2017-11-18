@@ -483,11 +483,6 @@
 <context>
     <name>LaunchWindow</name>
     <message>
-        <source>Geometrize Launcher</source>
-        <extracomment>Title of the main window of the app. It is the launcher window - so called because it is mainly used to launch other tasks</extracomment>
-        <translation>Geometrize Opstarter</translation>
-    </message>
-    <message>
         <source>Open Image</source>
         <extracomment>Text on a button that opens an image selection dialog when it is pressed</extracomment>
         <translation>Afbeelding openen</translation>
@@ -763,12 +758,7 @@
     </message>
 </context>
 <context>
-    <name>WelcomeDialog</name>
-    <message>
-        <source>Welcome</source>
-        <extracomment>Title of the dialog that greets/welcomes the user to the app</extracomment>
-        <translation>Welkom</translation>
-    </message>
+    <name>WelcomeWindow</name>
     <message>
         <source>Welcome to Geometrize. Watch the video tutorials below to learn the basics.</source>
         <extracomment>Message that welcomes users to the application</extracomment>
@@ -925,7 +915,7 @@
     <name>geometrize::dialog::ScriptConsole</name>
     <message>
         <source>Type 'help' in console for a list of commands</source>
-        <comment>Instructional text shown in the command/scripting console</comment>
+        <comment>Instructional text shown in the command/scripting console. The 'help' string should not be translated</comment>
         <translation>Type 'help' in de console voor een lijst met commando's</translation>
     </message>
 </context>
@@ -953,7 +943,7 @@
     </message>
 </context>
 <context>
-    <name>geometrize::dialog::WelcomeDialog</name>
+    <name>geometrize::dialog::WelcomeWindow</name>
     <message>
         <source>Welcome To %1</source>
         <comment>A subtitle on the 'tutorial' page welcoming the user to the software</comment>
