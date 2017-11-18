@@ -926,7 +926,7 @@
     <message>
         <source>Type 'help' in console for a list of commands</source>
         <comment>Instructional text shown in the command/scripting console</comment>
-        <translation>Taipkan 'bantuan' di dalam konsol untuk senarai perintah</translation>
+        <translation>Taipkan 'help' di dalam konsol untuk senarai perintah</translation>
     </message>
 </context>
 <context>

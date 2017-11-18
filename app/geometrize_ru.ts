@@ -679,8 +679,7 @@
     <message>
         <source>ChaiScript Files (*.chai)</source>
         <comment>List of supported script file formats. The text in the parentheses must not be changed</comment>
-        <translation>Файлы ChaiScript (*.chai)
-</translation>
+        <translation>Файлы ChaiScript (*.chai)</translation>
     </message>
     <message>
         <source>Load Settings</source>

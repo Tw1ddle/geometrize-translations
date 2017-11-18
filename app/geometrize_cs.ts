@@ -366,7 +366,7 @@
     <message>
         <source>Id</source>
         <extracomment>Text in a label next to a value that identifies the current task (an id)</extracomment>
-        <translation>id</translation>
+        <translation>Id</translation>
     </message>
     <message>
         <source>Time Running</source>
@@ -609,9 +609,7 @@
     <message>
         <source>Image Files (*.jpg *.jpeg *.png *.bmp)</source>
         <comment>List of supported image file formats. The text in the parentheses must not be changed</comment>
-        <translation>Formáty obrázků (*.jpg *.jpeg *.png *.bmp)
- 
-</translation>
+        <translation>Formáty obrázků (*.jpg *.jpeg *.png *.bmp)</translation>
     </message>
     <message>
         <source>Save Image</source>
@@ -621,7 +619,7 @@
     <message>
         <source>JPEG Image (*.jpg *.jpeg);;PNG Image (*.png);;BMP Image (*.bmp);;PPM Image (*.ppm)</source>
         <comment>List of supported image file formats. Semicolons and text in the parentheses must not be changed</comment>
-        <translation>Obrázky ve formátu JPEG (*.jpg *.jpeg); PNG (*.png); BMP (*.bmp); PPM (*.ppm)</translation>
+        <translation>Obrázky ve formátu JPEG (*.jpg *.jpeg);;Obrázky ve formátu PNG (*.png);;Obrázky ve formátu BMP (*.bmp);;Obrázky ve formátu PPM (*.ppm)</translation>
     </message>
     <message>
         <source>Save SVG Image</source>
@@ -646,7 +644,7 @@
     <message>
         <source>JSON Data (*.json);;Text Array (*.txt)</source>
         <comment>List of supported data file formats. Semicolons and text in the parentheses must not be changed</comment>
-        <translation>Data JSON(*.json);;  textové pole (*.txt)</translation>
+        <translation>Data JSON (*.json);;Textové pole (*.txt)</translation>
     </message>
     <message>
         <source>Save Animated GIF</source>
@@ -656,8 +654,7 @@
     <message>
         <source>GIF Animation (*.gif)</source>
         <comment>List of supported GIF file formats. The text in the parentheses must not be changed</comment>
-        <translation>GIF animace (*.gif)
-</translation>
+        <translation>GIF animace (*.gif)</translation>
     </message>
     <message>
         <source>Save HTML5 Webpage</source>
@@ -816,8 +813,7 @@
     <message>
         <source>Special thanks to: %1</source>
         <comment>Message that thanks contributors to the project. A list of names of people who contributed to the project follows this.</comment>
-        <translation>Zvláštní poděkování %1
-</translation>
+        <translation>Zvláštní poděkování %1</translation>
     </message>
 </context>
 <context>

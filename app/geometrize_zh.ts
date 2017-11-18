@@ -234,7 +234,7 @@
     <message>
         <source>Save WebGL Webpage</source>
         <extracomment>Text on a button that opens a dialog that allows a user to save a webpage that uses WebGL technology</extracomment>
-        <translation>保存 Tutorials 网页</translation>
+        <translation>保存 WebGL 网页</translation>
     </message>
     <message>
         <source>Export Geometry Data</source>

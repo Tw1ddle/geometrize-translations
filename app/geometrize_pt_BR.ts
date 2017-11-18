@@ -27,7 +27,7 @@
     <message>
         <source>Type a command...</source>
         <extracomment>Text shown in a command-line style text box. Prompts the user to type something</extracomment>
-        <translation>Digite um comando</translation>
+        <translation>Digite um comando...</translation>
     </message>
 </context>
 <context>
@@ -644,7 +644,7 @@
     <message>
         <source>JSON Data (*.json);;Text Array (*.txt)</source>
         <comment>List of supported data file formats. Semicolons and text in the parentheses must not be changed</comment>
-        <translation>Dados JSON (*.json);; Arranjos de texto (*.txt)</translation>
+        <translation>Dados JSON (*.json);;Arranjos de texto (*.txt)</translation>
     </message>
     <message>
         <source>Save Animated GIF</source>
@@ -926,7 +926,7 @@
     <message>
         <source>Type 'help' in console for a list of commands</source>
         <comment>Instructional text shown in the command/scripting console</comment>
-        <translation>Digite "ajuda" no console para obter uma lista de comandos</translation>
+        <translation>Digite "help" no console para obter uma lista de comandos</translation>
     </message>
 </context>
 <context>

@@ -619,7 +619,7 @@
     <message>
         <source>JPEG Image (*.jpg *.jpeg);;PNG Image (*.png);;BMP Image (*.bmp);;PPM Image (*.ppm)</source>
         <comment>List of supported image file formats. Semicolons and text in the parentheses must not be changed</comment>
-        <translation>Зображення JPEG (*.jpg *.jpeg);; Зображення PNG (*.png);; Зображення BMP (*.bmp);; Зображення PPM (*.ppm)</translation>
+        <translation>Зображення JPEG (*.jpg *.jpeg);;Зображення PNG (*.png);;Зображення BMP (*.bmp);;Зображення PPM (*.ppm)</translation>
     </message>
     <message>
         <source>Save SVG Image</source>
@@ -644,7 +644,7 @@
     <message>
         <source>JSON Data (*.json);;Text Array (*.txt)</source>
         <comment>List of supported data file formats. Semicolons and text in the parentheses must not be changed</comment>
-        <translation>Дані JSON (*.json);; Текстовий масив даних (*.txt)</translation>
+        <translation>Дані JSON (*.json);;Текстовий масив даних (*.txt)</translation>
     </message>
     <message>
         <source>Save Animated GIF</source>

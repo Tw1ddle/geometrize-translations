@@ -926,7 +926,7 @@
     <message>
         <source>Type 'help' in console for a list of commands</source>
         <comment>Instructional text shown in the command/scripting console</comment>
-        <translation>Ukucaj „pomoć” u konzolu za listu komandi</translation>
+        <translation>Ukucaj „help” u konzolu za listu komandi</translation>
     </message>
 </context>
 <context>

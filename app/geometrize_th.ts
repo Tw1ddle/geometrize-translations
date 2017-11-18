@@ -746,8 +746,7 @@
     <message>
         <source>Unknown script evaluation error</source>
         <comment>Error message shown when the app fails to run a script, and has no additional information about the error</comment>
-        <translation>ไม่มีชื่อผู้แต่ง
-มีข้อผิดพลาด</translation>
+        <translation>ไม่มีชื่อผู้แต่งมีข้อผิดพลาด</translation>
     </message>
 </context>
 <context>

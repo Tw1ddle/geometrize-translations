@@ -35,7 +35,7 @@
     <message>
         <source>Credits</source>
         <extracomment>Title of the window containing credits, naming the individuals who contributed to the software</extracomment>
-        <translation>pisteet</translation>
+        <translation>Pisteet</translation>
     </message>
     <message>
         <source>Developers</source>
@@ -116,7 +116,7 @@
     <message>
         <source>Multithreading</source>
         <extracomment>Title text for a group of multithreading-related settings. This is threading in the sense of CPU threads (not clothes!)</extracomment>
-        <translation>monisäikeistys</translation>
+        <translation>Säikeistystekniikkaa</translation>
     </message>
     <message>
         <source>Start Up Settings</source>
@@ -229,12 +229,12 @@
     <message>
         <source>Save HTML5 Webpage</source>
         <extracomment>Text on a button that opens a dialog that allows a user to save a webpage that uses HTML5 web technology</extracomment>
-        <translation>Tallenna HTML 5 -nettisivu</translation>
+        <translation>Tallenna HTML5-nettisivu</translation>
     </message>
     <message>
         <source>Save WebGL Webpage</source>
         <extracomment>Text on a button that opens a dialog that allows a user to save a webpage that uses WebGL technology</extracomment>
-        <translation>Tallenna WbGL-nettisivu</translation>
+        <translation>Tallenna WebGL-nettisivu</translation>
     </message>
     <message>
         <source>Export Geometry Data</source>
@@ -244,7 +244,7 @@
     <message>
         <source>Save Geometry Data</source>
         <extracomment>Text on a button that opens a dialog that allows the user to save geometric shape data directly to a text file</extracomment>
-        <translation>Tallenna geometrinen data</translation>
+        <translation>Tallenna geometrian tiedot</translation>
     </message>
 </context>
 <context>
@@ -659,7 +659,7 @@
     <message>
         <source>Save HTML5 Webpage</source>
         <comment>Title on a dialog that allows the user to save a HTML5-based webpage</comment>
-        <translation>Tallenna HTML 5 -nettisivu</translation>
+        <translation>Tallenna HTML5-nettisivu</translation>
     </message>
     <message>
         <source>HTML Webpage (*.html)</source>
@@ -965,7 +965,7 @@
     <message>
         <source>Geometrize</source>
         <comment>This means to 'turn into geometry' or to 'represent using geometric primitives'. The name of the application, so must be short and meaningful. Do not translate if this is difficult to communicate in one word.</comment>
-        <translation>Muuta geometriaksi</translation>
+        <translation>Geometrize</translation>
     </message>
     <message>
         <source>Geometrize recreates your photos using simple geometric shapes, transforming them into unique artwork.</source>

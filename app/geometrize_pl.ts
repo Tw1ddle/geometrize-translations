@@ -619,7 +619,7 @@
     <message>
         <source>JPEG Image (*.jpg *.jpeg);;PNG Image (*.png);;BMP Image (*.bmp);;PPM Image (*.ppm)</source>
         <comment>List of supported image file formats. Semicolons and text in the parentheses must not be changed</comment>
-        <translation>Obraz JPEG (*.jpg *.jpeg);;obraz PNG(*.png);;obraz BMP (*.bmp);;obraz PPM (*.ppm)</translation>
+        <translation>Obraz JPEG (*.jpg *.jpeg);;Obraz PNG (*.png);;Obraz BMP (*.bmp);;Obraz PPM (*.ppm)</translation>
     </message>
     <message>
         <source>Save SVG Image</source>
@@ -644,7 +644,7 @@
     <message>
         <source>JSON Data (*.json);;Text Array (*.txt)</source>
         <comment>List of supported data file formats. Semicolons and text in the parentheses must not be changed</comment>
-        <translation>Dane JSON (*.json);;tablica tekstów (*.txt)</translation>
+        <translation>Dane JSON (*.json);;Tablica tekstów (*.txt)</translation>
     </message>
     <message>
         <source>Save Animated GIF</source>
@@ -730,7 +730,7 @@
     <message>
         <source>Script evaluation failure</source>
         <comment>Title of an error message dialog shown when the app fails to run a script</comment>
-        <translation>Ocena skryptu nie powiodła się.</translation>
+        <translation>Ocena skryptu nie powiodła się</translation>
     </message>
 </context>
 <context>
@@ -821,7 +821,7 @@
     <message>
         <source>Failed to run exporter</source>
         <comment>Title of error message shown when an attempt to save/export a file failed</comment>
-        <translation>Eksportowanie nie powiodło się.</translation>
+        <translation>Eksportowanie nie powiodło się</translation>
     </message>
     <message>
         <source>Failed to run exporter. Exporter was misconfigured.</source>
@@ -926,7 +926,7 @@
     <message>
         <source>Type 'help' in console for a list of commands</source>
         <comment>Instructional text shown in the command/scripting console</comment>
-        <translation>Wpisz w konsoli „pomoc”, aby uzyskać listę poleceń</translation>
+        <translation>Wpisz w konsoli „help”, aby uzyskać listę poleceń</translation>
     </message>
 </context>
 <context>

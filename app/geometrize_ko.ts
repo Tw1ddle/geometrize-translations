@@ -300,7 +300,7 @@
     <message>
         <source>Quadratic Beziers</source>
         <extracomment>Plural form of quadratic bezier curve geometric shape</extracomment>
-        <translation>이차 베지에</translation>
+        <translation>이차 베지어</translation>
     </message>
     <message>
         <source>Ellipses</source>
@@ -619,7 +619,7 @@
     <message>
         <source>JPEG Image (*.jpg *.jpeg);;PNG Image (*.png);;BMP Image (*.bmp);;PPM Image (*.ppm)</source>
         <comment>List of supported image file formats. Semicolons and text in the parentheses must not be changed</comment>
-        <translation>JPEG 이미지 (*.jpg *.jpeg);;PNG 이미지 (*.png);;BMP Image (*.bmp);;PPM 이미지 (*.ppm)</translation>
+        <translation>JPEG 이미지 (*.jpg *.jpeg);;PNG 이미지 (*.png);;BMP 이미지 (*.bmp);;PPM 이미지 (*.ppm)</translation>
     </message>
     <message>
         <source>Save SVG Image</source>
@@ -772,7 +772,7 @@
     <message>
         <source>Welcome to Geometrize. Watch the video tutorials below to learn the basics.</source>
         <extracomment>Message that welcomes users to the application</extracomment>
-        <translation>Geometry에 오신 것을 환영합니다. 아래의 튜토리얼 비디오를 통해 기본 사항을 배우십시오.</translation>
+        <translation>Geometrize에 오신 것을 환영합니다. 아래의 튜토리얼 비디오를 통해 기본 사항을 배우십시오.</translation>
     </message>
     <message>
         <source>Close</source>
@@ -965,12 +965,12 @@
     <message>
         <source>Geometrize</source>
         <comment>This means to 'turn into geometry' or to 'represent using geometric primitives'. The name of the application, so must be short and meaningful. Do not translate if this is difficult to communicate in one word.</comment>
-        <translation>Geometry</translation>
+        <translation>Geometrize</translation>
     </message>
     <message>
         <source>Geometrize recreates your photos using simple geometric shapes, transforming them into unique artwork.</source>
         <comment>This is a short description for what this application is and what it does.</comment>
-        <translation>Geometry은 귀하의 사진을 간단한 기하학 모양을 사용해 재구성하고, 특별한 예술 작품으로 변환시킵니다.</translation>
+        <translation>Geometrize은 귀하의 사진을 간단한 기하학 모양을 사용해 재구성하고, 특별한 예술 작품으로 변환시킵니다.</translation>
     </message>
     <message>
         <source>Copyright 2015-2017 Sam Twidale</source>

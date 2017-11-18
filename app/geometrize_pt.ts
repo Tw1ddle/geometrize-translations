@@ -485,7 +485,7 @@
     <message>
         <source>Geometrize Launcher</source>
         <extracomment>Title of the main window of the app. It is the launcher window - so called because it is mainly used to launch other tasks</extracomment>
-        <translation>Iniciador de Geometria</translation>
+        <translation>Iniciador de Geometrize</translation>
     </message>
     <message>
         <source>Open Image</source>
@@ -926,7 +926,7 @@
     <message>
         <source>Type 'help' in console for a list of commands</source>
         <comment>Instructional text shown in the command/scripting console</comment>
-        <translation>Digite "ajuda" no console para obter uma lista de comandos</translation>
+        <translation>Digite "help" no console para obter uma lista de comandos</translation>
     </message>
 </context>
 <context>

@@ -330,7 +330,7 @@
     <message>
         <source>Polylines</source>
         <extracomment>Plural form of the polyline geometric shape (multiple line segments joined together)</extracomment>
-        <translation>polylinjer</translation>
+        <translation>Polylinjer</translation>
     </message>
     <message>
         <source>Step</source>
@@ -464,7 +464,7 @@
     <message>
         <source>Vector Graphics View</source>
         <extracomment>Text on a menu item that shows or hides a window containing a vector-based (SVG) graphic of the shapes the app has created</extracomment>
-        <translation>vektorgrafikkvisning</translation>
+        <translation>Vektorgrafikkvisning</translation>
     </message>
 </context>
 <context>
@@ -485,7 +485,7 @@
     <message>
         <source>Geometrize Launcher</source>
         <extracomment>Title of the main window of the app. It is the launcher window - so called because it is mainly used to launch other tasks</extracomment>
-        <translation>Geometriser starter</translation>
+        <translation>Geometrize starter</translation>
     </message>
     <message>
         <source>Open Image</source>
@@ -926,7 +926,7 @@
     <message>
         <source>Type 'help' in console for a list of commands</source>
         <comment>Instructional text shown in the command/scripting console</comment>
-        <translation>Skriv "hjelp" i konsollen for en liste med kommandoer</translation>
+        <translation>Skriv "help" i konsollen for en liste med kommandoer</translation>
     </message>
 </context>
 <context>
@@ -965,7 +965,7 @@
     <message>
         <source>Geometrize</source>
         <comment>This means to 'turn into geometry' or to 'represent using geometric primitives'. The name of the application, so must be short and meaningful. Do not translate if this is difficult to communicate in one word.</comment>
-        <translation>Geometrisere</translation>
+        <translation>Geometrize</translation>
     </message>
     <message>
         <source>Geometrize recreates your photos using simple geometric shapes, transforming them into unique artwork.</source>

@@ -872,7 +872,7 @@
     <message>
         <source>Stop</source>
         <comment>Text on a button that the user presses to make the app stop/pause transforming an image into shapes</comment>
-        <translation>Stop</translation>
+        <translation>Berhenti</translation>
     </message>
 </context>
 <context>
@@ -890,7 +890,7 @@
     <message>
         <source>%1/%2 shapes</source>
         <comment>Text showing the number of shapes that have been created to replicate an image so far e.g. 230/300 shapes</comment>
-        <translation>bentuk %1/%2 </translation>
+        <translation>Bentuk %1/%2 </translation>
     </message>
 </context>
 <context>

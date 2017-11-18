@@ -171,7 +171,7 @@
     <message>
         <source>Max Width</source>
         <extracomment>Label text next to a value that indicates the maximum allowed width of an image in pixels</extracomment>
-        <translation>Chiều rộng tối đa</translation>
+        <translation>Chiều rộng Tối đa</translation>
     </message>
     <message>
         <source>Max Height</source>
@@ -619,7 +619,7 @@
     <message>
         <source>JPEG Image (*.jpg *.jpeg);;PNG Image (*.png);;BMP Image (*.bmp);;PPM Image (*.ppm)</source>
         <comment>List of supported image file formats. Semicolons and text in the parentheses must not be changed</comment>
-        <translation>Hình ảnh JPEG (*.jpg *.jpeg);; hình ảnh PNG  (*.png);;hình ảnh BMP (*.bmp);;hình ảnh PPM  (*.ppm)</translation>
+        <translation>Hình ảnh JPEG (*.jpg *.jpeg);;Hình ảnh PNG  (*.png);;Hình ảnh BMP (*.bmp);;Hình ảnh PPM  (*.ppm)</translation>
     </message>
     <message>
         <source>Save SVG Image</source>

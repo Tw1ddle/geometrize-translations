@@ -596,7 +596,7 @@
     <message>
         <source>Enter the URL to check. Images found at the URL will be downloaded and opened:</source>
         <extracomment>Message that explains how the user can enter a web address in the current dialog. The app automatically opens images it finds at the web address</extracomment>
-        <translation>Ange URL för att kolla. Bilder hittade på URL:en kommer att laddas ned och öppnas: </translation>
+        <translation>Ange URL för att kolla. Bilder hittade på URL kommer att laddas ned och öppnas: </translation>
     </message>
 </context>
 <context>
@@ -926,7 +926,7 @@
     <message>
         <source>Type 'help' in console for a list of commands</source>
         <comment>Instructional text shown in the command/scripting console</comment>
-        <translation>Skriv "hjälp" i konsolen för att få en lista på kommandon</translation>
+        <translation>Skriv "help" i konsolen för att få en lista på kommandon</translation>
     </message>
 </context>
 <context>

@@ -76,7 +76,7 @@
     <message>
         <source>Global Preferences</source>
         <extracomment>Title of the window that contains the preferences and settings that affect the entire app (global settings)</extracomment>
-        <translation>Celkové preferencie:</translation>
+        <translation>Celkové preferencie</translation>
     </message>
     <message>
         <source>General</source>
@@ -295,7 +295,7 @@
     <message>
         <source>Circles</source>
         <extracomment>Plural form of circle/circular geometric shape</extracomment>
-        <translation>Kruhy:</translation>
+        <translation>Kruhy</translation>
     </message>
     <message>
         <source>Quadratic Beziers</source>
@@ -834,7 +834,7 @@
     <message>
         <source>Idle</source>
         <comment>Text shown on a button when the app is not actively turning images into shapes. That is, the app is idle/not doing anything</comment>
-        <translation>nečinný</translation>
+        <translation>Nečinný</translation>
     </message>
     <message>
         <source>Running</source>
