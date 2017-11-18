@@ -604,7 +604,7 @@
     <message>
         <source>Image Files (*.jpg *.jpeg *.png *.bmp)</source>
         <comment>List of supported image file formats. The text in the parentheses must not be changed</comment>
-        <translation>ملفات الصور (jpg *.jpeg *.png *.bmp.*)</translation>
+        <translation>ملفات الصور (*.jpg *.jpeg *.png *.bmp)</translation>
     </message>
     <message>
         <source>Save Image</source>
@@ -614,7 +614,7 @@
     <message>
         <source>JPEG Image (*.jpg *.jpeg);;PNG Image (*.png);;BMP Image (*.bmp);;PPM Image (*.ppm)</source>
         <comment>List of supported image file formats. Semicolons and text in the parentheses must not be changed</comment>
-        <translation>صورة JPEG  (*.jpg *.jpeg);; صورة PNG صورة (*.png);;BMP  صورة (*.bmp);;PPM (*.ppm.*)</translation>
+        <translation>صورة JPEG  (*.jpg *.jpeg);;صورة PNG;;صورة (*.png);;BMP  صورة (*.bmp.*);;PPM (*.ppm)</translation>
     </message>
     <message>
         <source>Save SVG Image</source>
@@ -624,7 +624,7 @@
     <message>
         <source>SVG Image (*.svg)</source>
         <comment>List of supported vector-based image formats. The text in the parentheses must not be changed</comment>
-        <translation>صورة(svg.*)</translation>
+        <translation>صورة (*.svg)</translation>
     </message>
     <message>
         <source>Save Images</source>
@@ -639,7 +639,7 @@
     <message>
         <source>JSON Data (*.json);;Text Array (*.txt)</source>
         <comment>List of supported data file formats. Semicolons and text in the parentheses must not be changed</comment>
-        <translation>بيانات  (json*.);; المصفوفة النصية(txt.*)</translation>
+        <translation>بيانات  (*.json);;المصفوفة النصية (*.txt)</translation>
     </message>
     <message>
         <source>Save Animated GIF</source>
@@ -649,7 +649,7 @@
     <message>
         <source>GIF Animation (*.gif)</source>
         <comment>List of supported GIF file formats. The text in the parentheses must not be changed</comment>
-        <translation>صور GIF المتحركة (gif.*)</translation>
+        <translation>صور GIF المتحركة (*.gif)</translation>
     </message>
     <message>
         <source>Save HTML5 Webpage</source>
@@ -659,7 +659,7 @@
     <message>
         <source>HTML Webpage (*.html)</source>
         <comment>List of supported webpage formats. The text in the parentheses must not be changed</comment>
-        <translation>صفحة ويب (html.*)</translation>
+        <translation>صفحة ويب (*.html)</translation>
     </message>
     <message>
         <source>Save WebGL Webpage</source>
@@ -674,7 +674,7 @@
     <message>
         <source>ChaiScript Files (*.chai)</source>
         <comment>List of supported script file formats. The text in the parentheses must not be changed</comment>
-        <translation>ملفات تشايسكريبت (chai.*)</translation>
+        <translation>ملفات تشايسكريبت (*.chai)</translation>
     </message>
     <message>
         <source>Load Settings</source>
@@ -684,7 +684,7 @@
     <message>
         <source>JSON Settings File (*.json)</source>
         <comment>List of supported settings file formats. The text in the parentheses must not be changed</comment>
-        <translation>ملف إعدادات  (json.*)</translation>
+        <translation>ملف إعدادات  (*.json)</translation>
     </message>
     <message>
         <source>Save Settings</source>
