@@ -614,7 +614,7 @@
     <message>
         <source>JPEG Image (*.jpg *.jpeg);;PNG Image (*.png);;BMP Image (*.bmp);;PPM Image (*.ppm)</source>
         <comment>List of supported image file formats. Semicolons and text in the parentheses must not be changed</comment>
-        <translation>Imagen JPEG (*.jpg *.jepg);;Imagen PNG (*.png);;Imagen BMP (*.bmp);;Imagen PPM (*.ppm)</translation>
+        <translation>Imagen JPEG (*.jpg *.jpeg);;Imagen PNG (*.png);;Imagen BMP (*.bmp);;Imagen PPM (*.ppm)</translation>
     </message>
     <message>
         <source>Save SVG Image</source>
@@ -955,7 +955,7 @@
     <message>
         <source>Geometrize</source>
         <comment>This means to 'turn into geometry' or to 'represent using geometric primitives'. The name of the application, so must be short and meaningful. Do not translate if this is difficult to communicate in one word.</comment>
-        <translation>Geometrizar</translation>
+        <translation>Geometrize</translation>
     </message>
     <message>
         <source>Geometrize recreates your photos using simple geometric shapes, transforming them into unique artwork.</source>

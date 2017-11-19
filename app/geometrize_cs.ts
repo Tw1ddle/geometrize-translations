@@ -955,7 +955,7 @@
     <message>
         <source>Geometrize</source>
         <comment>This means to 'turn into geometry' or to 'represent using geometric primitives'. The name of the application, so must be short and meaningful. Do not translate if this is difficult to communicate in one word.</comment>
-        <translation>Zgeometrizovat</translation>
+        <translation>Geometrize</translation>
     </message>
     <message>
         <source>Geometrize recreates your photos using simple geometric shapes, transforming them into unique artwork.</source>
