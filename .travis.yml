@@ -5,9 +5,8 @@ env:
   global:
     - secure: BW4/YkeASJvNCwSiyoeIhEbhsmR15Tk2mSlvqqRK/rLnWjb0iQqdfw2apAHkxql96RjTTfzHRIzneWDxTkjh1OComuzG7ik1szak35lW/mfy6SNNYnmi8h98+88+i8RFYtrx47J5qmJ9/v9lRhFG/5yhXbg14b8RN36EdynBVOiNdsYquRzJ7MFzBTzbB9hCtBDgAhsz0wBdTkEFLCEbDsmXIaK74QLDZN6iSgxZz5qlTy4EDv467O+3MVUcGeJlGSeoBUxgHEVslAqpyxqPOAoi0INxH/iIzBvljQNU9XjE8mdsgaL5uOOfdwImYsQYTSwg/LlEDJcXxrgOyQKDHeJK4xrRFAZwy2lF07T5JXh++XSzoGoXl/jSZKejw43+QS2hV8OdD8YTXRyWcU/guoPshabnPBAgAIBt9vubaUNtksqWazqEJNAEG9hHWNAwdu4xMbBM/AxsHj7xP4TZKu89vyoeJ6202iVyTe15yEbOI/AjtNhNGBzmNtc8OZ/ULFHuHrrWgQ2/Mfov0Nv6dItYcEFMSvFaKaGMbWUsQKdER19WxLUvCfsHyhlqyckHJP7m9K0c4NjXMfkds9QqHo/sfmbjCmBKbcLENaMXSH7jKLD07jUsWvdw1gA3ApGQ6T2E9QQHyB1d6F8LrqPQ8MUJWFKseD3pZWrnEObnQVY=
 
-# Could pull latest translations from Transifex and commit to repo at this point, but leaving that manual for now
 script:
-  -
+  - echo "Not doing any work here, could pull latest translations from Transifex and commit to repo at this point, but leaving that as a manual step for now"
 
 # Tell downstream repositories that the Geometrize translations have been updated
 after_script:
