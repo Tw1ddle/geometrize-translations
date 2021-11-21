@@ -3,9 +3,9 @@ Purpose: this task is part of translating the user interface of a desktop applic
 
 Useful links and info:
 
-This webpage has screenshots of every part of the Geometrize user interface, in English. This should provide some useful context: http://screenshots.geometrize.co.uk/
+This webpage has screenshots of every part of the Geometrize user interface, in English. This should provide some useful context: https://screenshots.geometrize.co.uk/
 
-If what the app does is unclear, please see this web-based example that recreates images using shapes. In this case, a seagull is recreated using triangles: http://www.samcodes.co.uk/project/geometrize-haxe-web/
+If what the app does is unclear, please see this web-based example that recreates images using shapes. In this case, a seagull is recreated using triangles: https://www.samcodes.co.uk/project/geometrize-haxe-web/
 
 Alternatively, here is an example screenshot of what the app does to an image: https://imgur.com/a/67JiT
 
