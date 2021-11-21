@@ -1,0 +1,9 @@
+branches:
+  only:
+    - master
+
+image:
+  - Ubuntu2004
+
+install:
+  echo "Not doing any work here, could pull latest translations from Transifex and commit to repo at this point, but leaving that as a manual step for now"
